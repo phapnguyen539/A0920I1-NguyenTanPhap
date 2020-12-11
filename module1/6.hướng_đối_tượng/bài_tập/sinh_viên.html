@@ -2,9 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    class Student {
+        constructor(name, age, address, mark) {
+            this.name = name;
+            this.age = age;
+            this.address = address;
+            this.mark = mark;
+        }
+        getName(){
+            return this.name;
+        }
+        getAge(){
+            return this.age;
+        }
+        getAddress() {
+            return this.address;
+        }
+        getMark() {
+            return this.mark;
+        }
+    }
+    let listStudent = [];
+    listStudent.push(new Student("Hai", 22, "Quang Nam", 8));
+    listStudent.push(new Student("Hai", 22, "Quang Nam", 8));
+    listStudent.push(new Student("Hai", 22, "Quang Nam", 8));
+    listStudent.push(new Student("Hai", 22, "Quang Nam", 8));
+    function displayStudent() {
+        document.body.innerHTML="";
+        let temp ="<table border='1'>";
+        temp+="<tr>";
+        temp+="<th width='100px'>Name</th>";
+        temp+="<th width='100px'>Age</th>";
+        temp+="<th width='100px'>Address</th>";
+        temp+="<th width='100px'>Mark</th>";
+        temp+="</tr>";
+        for(let i= 0;i<listStudent.length;i++){
+            temp+="<tr>";
+            temp+="<td>"+listStudent[i].getName()+"</td>";
+            temp+="<td>"+listStudent[i].getAge()+"</td>";
+            temp+="<td>"+listStudent[i].getAddress()+"</td>";
+            temp+="<td>"+listStudent[i].getMark()+"</td>";
+            temp+="<td><button onclick='changeStudent("+i+")'>Edit</button></td>";
+            temp+="<td><button onclick='deleteStudent("+i+")'>Delete</button></td>";
+            temp+="</tr>";
+        }
+        temp+="</table>";
+        temp+="<button onclick='addStudent()'>Add Student</button>"
+        document.writeln(temp);
+    }
+    function addStudent() {
+        document.body.innerHTML="";
+        let temp = "Name: <input type='text' id='name'><br>";
+        temp+="Age: <input type='number' id='age'><br>";
+        temp+="Address: <input type='text' id='address'><br>";
+        temp+="Mark: <input type='number' id='mark'><br>";
+        temp+="<button onclick='successAddStudent()'>Add Student</button>"
+        document.writeln(temp);
+    }
+    function successAddStudent() {
+        let name = document.getElementById("name").value;
+        let age = document.getElementById("age").value;
+        let address = document.getElementById("address").value;
+        let mark = document.getElementById("mark").value;
+        listStudent.push(new Student(name,age,address,mark));
+        displayStudent();
+    }
+    function changeStudent(i) {
+        document.body.innerHTML="";
+        let temp = "Name: <input type='text' id='name' value='"+listStudent[i].getName()+"'><br>";
+        temp+="Age: <input type='number' id='age' value='"+listStudent[i].getAge()+"'><br>";
+        temp+="Address: <input type='text' id='address' value='"+listStudent[i].getAddress()+"'><br>";
+        temp+="Mark: <input type='number' id='mark' value='"+listStudent[i].getMark()+"'><br>";
+        temp+="<button onclick='successEditStudent("+i+")'>Edit Student</button>"
+        document.writeln(temp);
+    }
+    function successEditStudent(i) {
+        let name = document.getElementById("name").value;
+        let age = document.getElementById("age").value;
+        let address = document.getElementById("address").value;
+        let mark = document.getElementById("mark").value;
+        listStudent[i] = new Student(name,age,address,mark);
+        displayStudent();
+    }
+    function deleteStudent(i) {
+        if(confirm("bạn có muốn xóa "+listStudent[i].getName()+" này hay không?")) {
+            listStudent.splice(i,10);
+            displayStudent();
+        }
+    }
+    displayStudent();
+</script>
 </body>
-</html>
+</html></html>

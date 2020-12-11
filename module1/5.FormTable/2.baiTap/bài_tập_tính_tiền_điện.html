@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+
+ let a = parseInt( prompt("nhập vào số điện"));
+    if (a < 0){
+      alert  ("số điện ko hợp lệ");
+    } else if (a < 50) {
+    a= a*3000;
+    }else if (a>100){
+        a= (50*3000)+((a-50)*3500);
+    }
+   document.writeln("Số tiền bạn phải trả là:"+ a);
+</script>
 </body>
 </html>

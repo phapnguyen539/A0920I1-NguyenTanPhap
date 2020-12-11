@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<canvas id="mycanvas" width="500px" height="300ps" style="border:5px solid #d3d3d3;"></canvas>
+<script>
+    let au= document.getElementById("mycanvas");
+    let ctx= au.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(250,200,60,0,2*Math.PI);
+    ctx.stroke();
+
+
+</script>
+
 </body>
 </html>

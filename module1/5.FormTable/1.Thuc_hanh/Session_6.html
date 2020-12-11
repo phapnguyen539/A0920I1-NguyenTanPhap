@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let userName = prompt("nhập tên từ bàn phím");
+
+    if (userName === "Admin") {
+        let pass = prompt('Password?');
+        if (pass === 'TheMaster') {
+            alert('wellcom!');
+        } else if (pass === 'null') {
+            alert('canceled');
+        } else {
+            alert ("wrong password");
+        }
+    }
+
+</script>
 </body>
 </html>

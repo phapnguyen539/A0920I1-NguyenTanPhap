@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<img src="" id="bong_den">
+<button onclick="switchButton()">Button</button>
+<script>
+    class ElectricLamp {
+        constructor() {
+            document.getElementById("bong_den").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkdr2WAEQzGHL7hE8PYpEyDTOC8gE8gGY_FA&usqp=CAU";
+        }
+        turnOn() {
+            document.getElementById("bong_den").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtd7VOU7hxVlQD-_sAXwGoVSz-6Ypy9xJyBQ&usqp=CAU";
+        }
+        turnOf() {
+            document.getElementById("bong_den").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkdr2WAEQzGHL7hE8PYpEyDTOC8gE8gGY_FA&usqp=CAU";
+        }
+    }
+    class SwitchButton {
+        constructor(status, lamp) {
+            this.status = status;
+            this.lamp = lamp;
+        }
+        connectToLamp(lamp) {
+            this.lamp = lamp;
+        }
+        turnOnSwitchButton() {
+            this.lamp.turnOn();
+            this.status = true;
+        }
+        turnOfSwitchButton() {
+            this.lamp.turnOf();
+            this.status = false;
+        }
+    }
+    let lamp = new ElectricLamp();
+    let switchButton1 = new SwitchButton(false, lamp);
+    function switchButton() {
+        if (switchButton1.status) {
+            switchButton1.turnOfSwitchButton();
+        } else {
+            switchButton1.turnOnSwitchButton();
+        }
+    }
+</script>
 </body>
 </html>

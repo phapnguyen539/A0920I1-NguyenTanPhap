@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let arrCustomer=[];
+    while (true){
+    let choose=parseInt(prompt("1.Add Name Customer."+ "\n" +"2.Delete Customer."));
+
+    switch(choose) {
+        case 1: {
+            let number = parseInt(prompt("Mời bạn nhập số khách hàng muốn thêm."));
+            for (let i = 0; i < number; i++) {
+                let nameCustomer = prompt("Mời bạn nhập tên của khách hàng muốn thêm.");
+                arrCustomer.push(nameCustomer);
+            }
+            let result="";
+            arrCustomer.sort();
+            for (let i = 0; i < arrCustomer.length; i++) {
+                result +=  arrCustomer[i]+ "\n";
+            }
+               alert(result);
+            break;
+        }
+
+        default: {
+            alert("Failed");
+        }
+        case 2:{
+            let check=false;
+            let today= parseInt(prompt("Mời bạn nhập tên muốn xóa."));
+            for (let i=0; i<arrCustomer.length;i++) {
+                if(arrCustomer[i]===today){
+                    arrCustomer[i].splice(i,1);
+                    check=true;
+                }
+            }
+            if(!check){
+                alert("Tên bạn muốn xóa không có trong danh sách.")
+            }
+        } let result="";
+            arrCustomer.sort();
+            for (let i = 0; i < arrCustomer.length; i++) {
+                result +=  arrCustomer[i]+ "\n";
+            }
+            alert(result);
+            break;
+    }
+    }
+</script>
 </body>
 </html>

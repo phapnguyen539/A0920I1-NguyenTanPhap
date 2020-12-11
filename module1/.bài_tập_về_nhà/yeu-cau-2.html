@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name="Khách hàng";
+    let cmnd="123456789";
+    let birthday="10/10/1990";
+    let email="gmail.com";
+    let address="Đà nẵng";
+    let typeService="villa";
+    let typeRoom="vip";
+    let typeCustomer="gold";
+    let discount="10";
+    let quantytiIncluded="10";
+    let rendDay="10";
+
+    let chose =parseInt(prompt("1.Thông tin khách hàng."+"\n"+
+        "2.Chỉnh sửa thông tin."+"\n"+
+        "3.Hiển thị số tiền sau giảm giá."));
+    switch (chose) {
+        case 1: {
+            alert("Tên:" + name + "\n" +
+                "Cm:" + cmnd + "\n" +
+                "Ngày sinh:" + birthday + "\n" +
+                "Email:" + email + "\n" +
+                "Địa chỉ:" + address + "\n" +
+                "Loại dịch vụ:" + typeService + "\n" +
+                "Loại phòng:" + typeRoom + "\n" +
+                "Loại khách hàng:" + typeCustomer + "\n" +
+                "Giá giảm:" + discount + "\n" +
+                "Số người đi kèm:" + quantytiIncluded + "\n" +
+                "Số ngày thuê:" + rendDay + "\n");
+            break;
+
+        }
+        case 2: {
+            let choseEdit = parseInt(prompt("1.Tên:" + name + "\n" +
+                "2.Cm:" + cmnd + "\n" +
+                "3.Ngày sinh:" + birthday + "\n" +
+                "4.Email:" + email + "\n" +
+                "5.Địa chỉ:" + address + "\n" +
+                "6.Loại dịch vụ:" + typeService + "\n" +
+                "7.Loại phòng:" + typeRoom + "\n" +
+                "8.Loại khách hàng:" + typeCustomer + "\n" +
+                "9.Giá giảm:" + discount + "\n" +
+                "10.Số người đi kèm:" + quantytiIncluded + "\n" +
+                "11.Số ngày thuê:" + rendDay + "\n"));
+            switch (choseEdit) {
+                case 1: {
+                    name = prompt("Mời nhập tên:");
+                    break;
+                }
+                case 2: {
+                    cmnd = prompt("Mời nhập số CM:");
+                    break;
+                }
+                case 3: {
+                    birthday = prompt("Mời nhập ngày sinh:");
+                    break;
+                }
+                case 4: {
+                    email = prompt("Mời nhập lại email:");
+                    break;
+                }
+                case 5: {
+                    address = prompt("Mời nhập địa chỉ:");
+                    break;
+                }
+                case 6: {
+                    typeService = prompt("Mời nhập loại dịch vụ:");
+                    break;
+                }
+                case 7: {
+                    typeRoom = prompt("Mời nhập loại phòng:");
+                    break;
+                }
+                case 8: {
+                    typeCustomer = prompt("Mời nhập loại phòng:");
+                    break;
+                }
+                case 9: {
+                    discount = prompt("Mời nhập giá giảm:");
+                }
+                case 10: {
+                    quantytiIncluded = prompt("Mời nhập số người đi kèm:");
+                    break;
+                }
+                case 11: {
+                    rendDay = prompt("Mời nhập số ngày:");
+                    break;
+                }
+
+            }
+
+        }
+            alert("Tên:" + name + "\n" +
+                "Cm:" + cmnd + "\n" +
+                "Ngày sinh:" + birthday + "\n" +
+                "Email:" + email + "\n" +
+                "Địa chỉ:" + address + "\n" +
+                "Loại dịch vụ:" + typeService + "\n" +
+                "Loại phòng:" + typeRoom + "\n" +
+                "Loại khách hàng:" + typeCustomer + "\n" +
+                "Giá giảm:" + discount + "\n" +
+                "Số người đi kèm:" + quantytiIncluded + "\n" +
+                "Số ngày thuê:" + rendDay + "\n");
+            break;
+
+        case 3: {
+            let money = 0;
+            if (typeService === "villa") {
+                money = 500;
+            } else if (typeService === "house") {
+                money =300;
+            } else if (typeService === "Room") {
+                money = 100;
+            }
+            let temp = 0;
+            if (address === "Đà nẵng") {
+                temp+=20;
+            } else if (address === "Huế") {
+                temp+=10;
+            } else if (address === "Quảng Nam") {
+                temp+=5;
+            }
+            if(rendDay>7){
+                temp+=30;
+            } else if(rendDay>5){
+                temp+=20;
+            }else if(rendDay>2){
+                temp+=10;
+            }
+            let name=0;
+            if(typeCustomer==="Diamond"){
+                name=15;
+            }else if(typeCustomer==="Platium"){
+                name=10;
+            }else if(typeCustomer==="gold"){
+                name=5;
+            }else if (typeCustomer==="Silver"){
+                name=2;
+            }else if(typeCustomer==="Member"){
+                name=0;
+            }
+            alert("Total pay:" + (money*rendDay-temp-name));
+            break;
+
+        }
+    }
+
+
+
+
+</script>
+
+
+</body>
+</html>

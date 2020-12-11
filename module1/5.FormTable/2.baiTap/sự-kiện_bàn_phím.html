@@ -2,9 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+
 </head>
 <body>
-$END$
+<img id="nobita" src="https://file.vforum.vn/hinh/2018/02/hinh-anh-hinh-nen-nobita-dep-nhat-de-thuong-6.png" style="position: absolute; left:0;top:0" height="300" width="200" >
+<script>
+    function moveSelection(event) {
+        switch (event.keyCode) {
+            case 37:
+                leftNobita();
+                break;
+            case 38:
+                upNobita();
+                break;
+            case 39:
+                rightNobita();
+                break;
+            case 40:
+                downNobita();
+                break;
+        }
+    }
+    window.addEventListener("keydown", moveSelection)
+    function leftNobita() {
+        document.getElementById("nobita").style.left = parseInt(document.getElementById("nobita").style.left)- 10 + "px";
+    }
+    function upNobita() {
+        document.getElementById("nobita").style.top = parseInt(document.getElementById("nobita").style.top) - 10 + "px";
+    }
+    function rightNobita() {
+        document.getElementById("nobita").style.left = parseInt(document.getElementById("nobita").style.left) + 10 + "px";
+    }
+    function downNobita() {
+        document.getElementById("nobita").style.top = parseInt(document.getElementById("nobita").style.top)+10 + "px";
+    }
+</script>
 </body>
 </html>

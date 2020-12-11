@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script type="text/javascript">
+    a = prompt("Nhap gia tri cua a")
+    b = prompt("Nhap gia tri cua b")
+    c = prompt("Nhap gia tri cua c")
+    document.write('a = ' + a + '</br>')
+    document.write('b = ' + b + '</br>')
+    document.write('c = ' + c + '</br>')
+
+    function timnghiem(a,b,c){
+        delta = b*b-4*a*c;
+        if (delta<0){
+            return('pt vô nghiệm')
+        } else if(delta===0){
+            x1=-b/(2*a);
+            return("Nghiem x =" + x1)
+        } else{
+            x2=(-b + Math.sqrt(delta))/(2*a);
+            x3=(-b - Math.sqrt(delta))/(2*a);
+            return("Nghiem x1=" + x2 + '</br>' + "Nghiem x2=" + x3)
+        }
+    }
+
+    if (a===0){
+        if (b===0){
+            if (c===0){
+                document.write("pt vo so nghiem");
+            } else {
+                document.write("pt vo nghiem");
+            }
+        }else{
+            document.write("Nghiem x =" + -c/b);
+        }
+    } else {
+        nghiem = timnghiem(a,b,c)
+        document.write(nghiem)
+    }
+</script>
+</body>
+
 </body>
 </html>

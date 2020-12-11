@@ -2,9 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let name;
+    let cmnd;
+    let birthday;
+    let email;
+    let address;
+    let typeService;
+    let typeRoom;
+    let typeCustomer;
+    let discount;
+    let quantytiIncluded;
+    let rendDay;
+    let check=false;
+    let countAt=0;
+    let countDoc=0;
+
+    let tenName="";
+    let tenAdd="";
+    let tenCustomer="";
+    name= prompt("Input name:");
+    name=name.trim().toLowerCase();
+    for(let i=0;i<name.length;i++) {
+        if (name.charAt(i) === " " && name.charAt(i + 1) === " ") {
+            continue;
+            }
+        if(i===0||name.charAt(i-1)===" "){
+            tenName += name.charAt(i).toUpperCase();
+            continue;
+        }
+            tenName+= name.charAt(i);
+    }
+    alert(tenName);
+    do{
+        cmnd=prompt("Input cmnd:");
+        if(!isNaN(cmnd)){
+            cmnd=Number.parseFloat(cmnd);
+        }
+        if (!Number.isInteger(cmnd)){
+            alert ("CM sai định dạng.");
+            continue;
+        }
+        if(cmnd<10000000|| cmnd>99999999){
+            alert ("CM sai định dạng.");
+            continue;
+        }
+        check=true;
+    }while (!check);
+    check=false;
+    do {
+        birthday = prompt("Input birthday:");
+        if (birthday.charAt(2) ==="/" && birthday.charAt(5) ==="/") {
+            let day = birthday.substring(0, 2);
+            let month = birthday.substring(3, 5);
+            let year = birthday.substring(6, 10);
+            if (!isNaN(day)&&!isNaN(month)&&!isNaN(year)) {
+                day = Number.parseFloat(day);
+                month = Number.parseFloat(month);
+                year = Number.parseFloat(year);
+                if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+                    if (day<32&&month<13&&year>1950) {
+                        check=true;
+                    }
+                }
+            }
+        }
+        if (!check){
+            alert("Sai định dạng");
+        }
+        } while (!check);
+           check=false;
+
+
+    do {
+        email=prompt("Input email:");
+        for (let i=0;i< email.length;i++){
+        if (email.charAt(i)==="@"){
+            countAt++;
+            for(let j =i+1;j<email.length;j++){
+                if(email.charAt(j)==="."){
+                    countDoc++;
+                }
+            }
+        }
+        }
+        if (countAt !== 1||countDoc<1){
+            alert("Email bạn nhập chưa đúng.");
+        } else{
+            check=true;
+        }
+    } while (!check);
+     check=false;
+
+    address=prompt("Input address:");
+    address= address.trim().toLowerCase();
+    for(let i=0;i<address.length;i++){
+        if(address.charAt(i)===" "&& address.charAt(i+1)===" ") {
+            continue;
+        }
+        if(i===0||address.charAt(i-1)===" "){
+            tenAdd+=address.charAt(i).toUpperCase();
+            continue;
+        }
+        tenAdd+=address.charAt(i);
+    } alert(tenAdd);
+    typeService=prompt("Input type service");
+    typeRoom=prompt("Input type room:");
+
+    typeCustomer=prompt("Input type customer:");
+    typeCustomer= typeCustomer.trim().toLowerCase();
+    for (let i=0;i<typeCustomer.length;i++) {
+        if (typeCustomer.charAt(i) === " " && typeCustomer.charAt(i + 1) === " ") {
+            continue;
+        }
+        if (i === 0|| typeCustomer.charAt(i - 1) === " ") {
+            tenCustomer += typeCustomer.charAt(i).toUpperCase();
+            continue;
+        }
+        tenCustomer += typeCustomer.charAt(i);
+    } alert(tenCustomer);
+
+    discount=prompt("Input discount:");
+    do{
+        quantytiIncluded=prompt("Input quantyti Included:");
+        if(!isNaN(quantytiIncluded)){
+            quantytiIncluded=Number.parseFloat(quantytiIncluded);
+            if(Number.isInteger(quantytiIncluded)){
+                check=true;
+            }
+        } if(!check){
+            alert("Số người đi kèm sai định dạng.");
+        }
+    }while(!check);
+    check=false;
+
+    do{
+        rendDay=prompt("Input rend day:");
+        if(!isNaN(rendDay)) {
+            rendDay = Number.parseFloat(rendDay);
+            if (Number.isInteger(rendDay)&&rendDay>0) {
+                check = true;
+            }
+        } if (!check){
+            alert("Số ngày thuê sai định dạng");
+        }
+    }while(!check);
+    check=false;
+
+
+</script>
+
 </body>
 </html>

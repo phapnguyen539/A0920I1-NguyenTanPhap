@@ -1,10 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        </head>
+        <body>
+        <canvas id="can" width="500px" height="500px"></canvas>
+        <script>
+        class Rectangle {
+            constructor(width, height) {
+                this.height = height;
+                this.width = width;
+            }
+            getWidth() {
+                return this.width;
+            }
+            setWidth(value) {
+                this.width = value;
+            }
+            getHeight() {
+                return this.height;
+            }
+            setHeight(value) {
+                this.height = value;
+            }
+            chuVi() {
+                return (this.height+this.width)*2;
+            }
+            dienTich() {
+                return this.width*this.height;
+            }
+            veCanvas() {
+                let can =document.getElementById("can");
+                let ctx = can.getContext("2d");
+                ctx.beginPath();
+                ctx.fillRect(0,0,this.width, this.height);
+            }
+        }
+    let rectangle =new Rectangle(150,150);
+    alert(rectangle.chuVi())
+    alert(rectangle.dienTich())
+    rectangle.veCanvas();
+    rectangle.setWidth(200);
+</script>
 </body>
 </html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <h3 style=" text-align: center ; color:yellow ; background: red">ĐĂNG KÍ ĐẶT PHÒNG VÀ NHẬN BÁO GIÁ</h3>
+    <p>Họ và Tên</p>
+    <input type="text">
+    <p>Số điện thoại (bắt buộc)</p>
+    <input type="text" id="t1">
+    <p>Số Chứng Minh </p>
+    <input type="text" id="t2">
+    <p>Ngày/tháng/năm sinh</p>
+    <input type="date">
+    <p>Email</p>
+    <input type="text" id="t3">
+    <p>Địa chỉ</p>
+    <input type="text">
+    <p>Loại customer</p>
+    <select id="t4">
+        <option>Diamond</option>
+        <option> Platinum</option>
+        <option>Gold</option>
+        <option>Silver</option>
+        <option> Member
+        <option>
+    </select>
+    <p>Số lượng người đi kèm</p>
+    <input type="text" id="t5">
+    <p>Số ngày thuê</p>
+    <input type="text" id="t6">
+    <p>Loại dịch vụ</p>
+    <select id="t7">
+        <option id="b1">Villa</option>
+        <option id="b2">House</option>
+        <option id="b3">Room</option>
+    </select>
+    <p>Loại phòng thuê</p>
+    <select id="t8">
+        <option>Vip</option>
+        <option>Business</option>
+        <option>Normal</option>
+    </select>
+    <p>Giảm giá</p>
+    <input type="text" id="t9"> <br>
+    <br>
+    <input type="button" value="Đăng Kí" onclick="dangki()">
+    <input type="button" value="Sửa Lại" onclick="sualai()">
+    <input type="button" value="Hủy" >
+</form>
+<script>
+    function dangki() {
+        let t1 = document.getElementById("t1").value;
+        let t3 = document.getElementById("t3").value;
+        let t2 = document.getElementById("t2").value;
+        let t4 = document.getElementById("t4").value;
+        let t5 = document.getElementById("t5").value;
+        let t6 = document.getElementById("t6").value;
+        let t7 = document.getElementById("t7").value;
+        let t8 = document.getElementById("t8").value;
+        let t9 = document.getElementById("t9").value / 100;
+        let total = 0;
+        if (document.getElementById("b1").value === "Villa")
+            total = 500;
+        else if (document.getElementById("b2").value === "House")
+            total = 300;
+        else if (document.getElementById("b3").value === "Room")
+            total = 100;
+        let sotien = total * t6 * (1 - t9);
+        alert("sotien" +sotien);
+
+    }
+
+
+</script>
+
+
+</body>
+</html>

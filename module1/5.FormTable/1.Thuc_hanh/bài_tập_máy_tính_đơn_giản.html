@@ -2,9 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<input id="num">
+<table border= "1"  width="500px">
+    <tr>
+        <td onclick="inputNumber(1)"> 1</td>
+        <td onclick="inputNumber(2)">2</td>
+        <td onclick="inputNumber(3)">3</td>
+        <td onclick = "inputNumber('+')">+</td>
+    </tr>
+    <tr>
+        <td onclick ="inputNumber(4)">4</td>
+        <td onclick="inputNumber(5)">5</td>
+        <td onclick="inputNumber(6)">6</td>
+        <td onclick="inputNumber('-') ">-</td>
+    </tr>
+    <tr>
+        <td onclick="inputNumber(7)">7</td>
+        <td onclick="inputNumber(8)">8</td>
+        <td onclick="inputNumber(9)">9</td>
+        <td onclick="inputNumber('*')">*</td>
+    </tr>
+    <tr>
+        <td onclick="xoabo()">C</td>
+        <td onclick="inputNumber(0)">0</td>
+        <td onclick="ketqua()">=</td>
+        <td onclick="inputNumber('/')">/</td>
+    </tr>
+</table>
+<script>
+    let temp = false;
+
+    function xoabo() {
+        document.getElementById("num").value = "";
+    }
+
+    function inputNumber(number) {
+        if (temp) {
+            if (number === "+" || number === "-" || number === "*" || number === "/") {
+                document.getElementById("num").value += number;
+            } else {
+                document.getElementById("num").value = number;
+            }
+        } else {
+            document.getElementById("num").value += number
+        }
+        temp = false;
+    }
+
+    function ketqua() {
+        document.getElementById("num").value = (eval(document.getElementById("num").value));
+        temp = true
+    }
+
+
+</script>
+
+
 </body>
 </html>

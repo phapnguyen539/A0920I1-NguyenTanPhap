@@ -2,9 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    class Caro {
+        constructor() {
+            this.arrCaro = new Array(20);
+            this.checkPerson1 = true;
+        }
+        init() {
+            for(let i = 0 ; i< this.arrCaro.length;i++) {
+                this.arrCaro[i] = new Array(20);
+                for(let j =0; j<this.arrCaro[i].length;j++) {
+                    this.arrCaro[i][j]=" ";
+                }
+            }
+        }
+        displayCaro() {
+            document.body.innerHTML="";
+            let result ="<table border='1'>"
+            for(let i = 0 ; i< this.arrCaro.length;i++) {
+                result += "<tr>"
+                for(let j =0; j<this.arrCaro[i].length;j++) {
+                    result += "<td width='40px' height='40px' onclick='change("+i+","+j+")'>"+this.arrCaro[i][j]+"</td>";
+                }
+                result+="</tr>"
+            }
+            result += "</table>";
+            document.write(result);
+        }
+        changeCaro(x,y) {
+            if(this.arrCaro[x][y] =="X"||this.arrCaro[x][y] =="O") {
+                alert("ô này đã có người chơi");
+            } else {
+                if (this.checkPerson1) {
+                    this.arrCaro[x][y] = "X";
+                } else {
+                    this.arrCaro[x][y] = "O";
+                }
+                this.checkPerson1 = !this.checkPerson1;
+                this.displayCaro();
+            }
+        }
+        checkWin() {
+        }
+    }
+    let caro = new Caro();
+    caro.init();
+    caro.displayCaro();
+    function change(x,y) {
+        caro.changeCaro(x,y);
+    }
+</script>
+
 </body>
 </html>

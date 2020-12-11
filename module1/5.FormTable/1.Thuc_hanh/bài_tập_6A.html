@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<input type="text" id="number1">
+<input type="text" id="number2">
+<input type="button" onclick="addTwoNumber()" value="Add(+)">
+<input type="button" onclick="subTwoNumber()" value="Sub (-)">
+<input type="button" onclick="multiTwoNumber()" value="Mult (*)">
+<input type="button" onclick="divTwoNumber()" value="Div (/)">
+<button type="button">Div (/)</button>
+<input id="result">
+<script>
+    //ĐỪng bao giờ .value cho biến toàn cục.
+    let number1 = document.getElementById("number1");
+    let number2 = document.getElementById("number2");
+    function addTwoNumber() {
+        let result = parseInt(number1.value) +  parseInt(number2.value);
+        number1.value = result;
+    }
+    function subTwoNumber() {
+        let result = parseInt (number1.value) - parseInt(number2.value);
+        number1.value= result;
+    }
+    function multiTwoNumber(){
+        let result = parseInt(number1.value)* parseInt(number2.value);
+number1.value= result
+} function divTwoNumber(){
+        let result= parseInt(number1.value)/parseInt(number2.value);
+        number1.value=result;}
+</script>
 </body>
 </html>
