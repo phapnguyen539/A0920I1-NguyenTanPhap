@@ -15,10 +15,12 @@ public class HinhChuNhat {
     }
 
     public void setWidth(double width) {
+
         this.width = width;
     }
 
     public double getHeight() {
+
         return height;
     }
 
@@ -26,7 +28,8 @@ public class HinhChuNhat {
         this.height = height;
     }
 
-     public double getDientich(){
+     public double getDientich()
+     {
     return this.height*this.width;
      }
      public double getChuvi(){

@@ -10,8 +10,9 @@ public class ChenViTriVaoMang {
         System.out.println("Nhập vào vị trí phần tử muốn chèn:");
         int index = sc.nextInt();
         for (int i = 0; i < arr.length; i++) {
-            if (index <=0) {
-                System.out.println();
+            if (index <=0&& index>arr.length-1 ) {
+                System.out.println("Hãy nhập vị trí chèn bên trong phân tử:");
+            }else{
             }
         }
     }

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afae8fbb-1ae7-40bc-86c5-3c6b5b08f676" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/Employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/task_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/task_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/yeu_cau_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/yeu_cau_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/yêu-cau-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/yêu-câu-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/thi-1-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/thi-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/phuong_trinh_bac_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/6.hướng_đối_tượng/bài_tập/bật_tắt_bóng_đèn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/6.hướng_đối_tượng/bài_tập/co_ca_ro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/6.hướng_đối_tượng/bài_tập/sinh_viên.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/6.hướng_đối_tượng/thực_hành/hình_tròn_hiệu+ứng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/6.hướng_đối_tượng/thực_hành/thi-module-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/3.Ma_gia_va_luu_do/1.Bai_tap/xây_dựng_lớp_hcn.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/3.Ma_gia_va_luu_do/1.Bai_tap/xây_dựng_lớp_hcn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/Game_ CaRo.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/Game_ CaRo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/Session_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/Session_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bài-tập-5b.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bài-tập-5b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bài_tập_6A.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bài_tập_6A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bài_tập_máy_tính_đơn_giản.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bài_tập_máy_tính_đơn_giản.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bài_tập_thực_hành_5A.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bài_tập_thực_hành_5A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bảng_cửu_chương.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/bảng_cửu_chương.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/nháp.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/nháp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/session_6_switch_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/session_6_switch_case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/tạo_bảng_nâng_cao.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/tạo_bảng_nâng_cao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/tạo_và_thao_tác_với_mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/tạo_và_thao_tác_với_mảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/vòng_lặp_for.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/vòng_lặp_for.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/vòng_lặp_while.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/1.Thuc_hanh/vòng_lặp_while.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/bài-tập-sử-dụng-toán-tử.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/bài-tập-sử-dụng-toán-tử.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/bài_tập_ghép_hình.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/bài_tập_ghép_hình.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/bài_tập_tính_tiền_điện.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/bài_tập_tính_tiền_điện.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/bàn-cờ-vua.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/bàn-cờ-vua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/kiem_tra_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/kiem_tra_so_nguyen_to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/kiểm_tra_năm_nhuận.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/kiểm_tra_năm_nhuận.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/luyện_tập_hàm.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/luyện_tập_hàm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/luyện_tập_mảng_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/luyện_tập_mảng_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/luyện_tập_vòng _lặp_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/luyện_tập_vòng _lặp_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/sinh_bảng__cửu_chương.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/.bài_tập_về_nhà/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/sinh_bảng_cửu_chương.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/sinh_bảng_cửu_chương.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/sự-kiện_bàn_phím.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/5.FormTable/2.baiTap/sự-kiện_bàn_phím.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/bài_tập_về_nhà/yeu-cau-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/5.FormTable/bài_tập_về_nhà/yeu_cau_1.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\a0920i1-Nguyen_Tan_Phap\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l0kYRuj1unsdvSVsDDF2RzMRXO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afae8fbb-1ae7-40bc-86c5-3c6b5b08f676" name="Default Changelist" comment="" />
+      <created>1606741444930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606741444930</updated>
+      <workItem from="1606741452695" duration="102000" />
+      <workItem from="1606742013342" duration="101000" />
+      <workItem from="1606742168258" duration="1221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="120" key="FileChooserDialogImpl" timestamp="1606743631121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606743631121" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1606742167380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1606742167380" />
+    <state x="65" y="0" key="new project wizard" timestamp="1606743633057">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606743633057" />
+  </component>
+</project>

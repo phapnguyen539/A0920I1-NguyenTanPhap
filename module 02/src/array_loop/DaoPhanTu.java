@@ -2,24 +2,18 @@ package array_loop;
 
 import java.util.Scanner;
 
-public class ĐaoNguocPhantu {
+public class DaoPhanTu {
     public static void main(String[] args) {
-
-
-        //  Khai báo các biến, nhập và kiểm tra kích thước mảng
-
+        Scanner scanner= new Scanner(System.in);
         int size;
         int[] array;
-        Scanner scanner = new Scanner(System.in);
+
         do {
             System.out.print("Nhập kích thước vào mảng:");
             size = scanner.nextInt();
             if (size > 20)
                 System.out.println("Kích thước phải nhỏ 20");
         } while (size > 20);
-
-
-        // Nhập giá trị cho các phần tử của mảng
 
         array = new int[size];
         int i = 0;
@@ -29,18 +23,10 @@ public class ĐaoNguocPhantu {
             i++;
         }
 
-
-        // In ra mảng đã nhập
-
         System.out.printf("Mảng đã nhập là: ", "");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "\t");
         }
-
-
-        //  Đảo ngược thứ tự các phần tử trong mảng
-
-        // Sử dụng biến trung gian để hoán đổi 2 phần tử.
 
         for (int j = 0; j < array.length / 2; j++) {
             int temp = array[j];
