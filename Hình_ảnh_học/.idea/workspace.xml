@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78b2241c-415c-46c4-8e8b-99aa536bcc2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/commons/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/commons/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/controller/ChuongTrinhQuanLy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/data/FileDoc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/models/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/models/SanPhamNhapKhau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/models/SanPhamXuatKhau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Bai_Tap_CSS/Tao_Layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Bo_cuc_fixed header_fixed footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Dung_box_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Tao-menu-ngang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Tao_bo_cuc_co_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Tạo_playout_Bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/tao_menu_doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/nhung_css_vao_html/bt_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/nhung_css_vao_html/bt_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/nhung_css_vao_html/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_tap_acessmodifier/TestTruTron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_tap_acessmodifier/TestTruTron.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/src/bai_tap_acessmodifier/TestTruTron.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1q6wU3m5MbRrMlw2qrP5WPZsJUw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Module_03" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78b2241c-415c-46c4-8e8b-99aa536bcc2d" name="Default Changelist" comment="" />
+      <created>1616413359412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616413359412</updated>
+      <workItem from="1616413360987" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1616413370598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616413370598" />
+  </component>
+</project>

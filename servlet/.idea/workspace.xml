@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49ac7be3-5843-4cb2-9c73-517ad50d68d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/commons/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/commons/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/controller/ChuongTrinhQuanLy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/data/FileDoc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/models/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/models/SanPhamNhapKhau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/src/models/SanPhamXuatKhau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Bai_Tap_CSS/Tao_Layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Bo_cuc_fixed header_fixed footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Dung_box_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Tao-menu-ngang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Tao_bo_cuc_co_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/Tạo_playout_Bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/Thuc_hanh_web/tao_menu_doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/nhung_css_vao_html/bt_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/nhung_css_vao_html/bt_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_03/CSS.03/nhung_css_vao_html/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_tap_acessmodifier/TestTruTron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_tap_acessmodifier/TestTruTron.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/src/bai_tap_acessmodifier/TestTruTron.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\a0920i1-Nguyen_Tan_Phap\servlet\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qCiTBC04pwy49vk36U4CqHCJes" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_servlet" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61001" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49ac7be3-5843-4cb2-9c73-517ad50d68d0" name="Default Changelist" comment="" />
+      <created>1616589977936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616589977936</updated>
+      <workItem from="1616589981208" duration="832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Tomcat_Server" timestamp="1616590704714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1616590704714" />
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616590717042">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1616590717042" />
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1616590819820">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616590819820" />
+    <state x="65" y="0" key="new project wizard" timestamp="1616590821247">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1616590821247" />
+  </component>
+</project>

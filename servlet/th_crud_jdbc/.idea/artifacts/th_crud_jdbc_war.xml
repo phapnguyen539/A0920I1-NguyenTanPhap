@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="th_crud_jdbc:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/th_crud_jdbc_war</output-path>
+    <root id="archive" name="th_crud_jdbc_war.war">
+      <element id="artifact" artifact-name="th_crud_jdbc:war exploded" />
+    </root>
+  </artifact>
+</component>
