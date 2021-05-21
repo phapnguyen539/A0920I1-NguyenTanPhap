@@ -81,7 +81,7 @@ public class UserServlet extends HttpServlet {
             }
         });
         request.setAttribute("list user",list);
-        RequestDispatcher dispatcher= request.getRequestDispatcher();
+        RequestDispatcher dispatcher= request.getRequestDispatcher("user/list.jsp");
         dispatcher.forward(request,response);
     }
 

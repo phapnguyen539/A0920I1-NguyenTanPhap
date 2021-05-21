@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="18.CSDL_ORM.CustomerORM.main" target="1.8" />
+      <module name="18.CSDL_ORM.CustomerORM.test" target="1.8" />
+      <module name="codegym.com.CustomerORM.main" target="1.8" />
+      <module name="codegym.com.CustomerORM.test" target="1.8" />
+      <module name="CodeGym.Module2.18.CSDL_ORM.CustomerORM.main" target="1.8" />
+      <module name="CodeGym.Module2.18.CSDL_ORM.CustomerORM.test" target="1.8" />
+      <module name="CustomerORM.main" target="1.8" />
+      <module name="CustomerORM.test" target="1.8" />
+      <module name="Module2.18.CSDL_ORM.CustomerORM.main" target="1.8" />
+      <module name="Module2.18.CSDL_ORM.CustomerORM.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b3d64a-9e2e-487b-8b0a-d5c231d89d31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/bai_tap_acessmodifier/TestTruTron.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2/src/bai_tap_acessmodifier/TestTruTron.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/bai_tap_acessmodifier/TestTruTron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_03/CSS.03/Thuc_hanh_web/boottrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/.idea/artifacts/CaseStudy_module03_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/CaseStudy_module03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/src/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/src/model/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/CaseStudy_module03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/.idea/artifacts/thi_module03_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/src/controllor/SanPhamServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/src/dao/SanPhamDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/src/model/DonHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/src/model/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/src/model/Nhanvien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/src/model/Sanpham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/thi_module03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/thi_module03/web/lib/abc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/th_crud_jdbc/out/artifacts/th_crud_jdbc_war_exploded/WEB-INF/classes/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/th_crud_jdbc/out/artifacts/th_crud_jdbc_war_exploded/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/th_crud_jdbc/out/production/th_crud_jdbc/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/th_crud_jdbc/out/production/th_crud_jdbc/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/th_crud_jdbc/src/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/th_crud_jdbc/src/controller/UserServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613992294609</updated>
       <workItem from="1613992296266" duration="52000" />
+      <workItem from="1620437780088" duration="157000" />
     </task>
     <servers />
   </component>
@@ -43,9 +70,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1613992347915">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1620437883482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613992347915" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620437883482" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1620437779301">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1620437779301" />
+    <state x="65" y="0" key="new project wizard" timestamp="1620437936600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1620437936600" />
   </component>
 </project>
