@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management</title>
+</head>
+<body>
+<h3>Student Management</h3>
+<form action="/" method="get">
+    <input type="text" name="key_search">
+    <input type="submit" value="Search">
+</form>
+<table>
+    <thead>
+    <tr>
+        <th>STT</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="student, start : ${students}">
+        <td th:text="${start.count}"></td>
+        <td th:text="${student.name}"></td>
+        <td th:text="${student.address}"></td>
+        <td th:text="${student.email}"></td>
+        <td>
+            <a href="#">Delete |</a>
+            <a href="#">Edit</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

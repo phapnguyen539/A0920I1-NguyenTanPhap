@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6924dfd2-72b8-4a50-abbf-6672ad0f3366" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringData/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/src/main/java/com/codegym/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringData/src/test/java/com/codegym/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata_th/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.idea/modules/th_quanlydanhsachkhachhang.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/src/main/java/com/codegym/controller/EmaiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/src/main/webapp/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/modules/ungdung_login.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/java/com/codegym/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/java/com/codegym/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/src/main/webapp/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/model/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/.idea/demo-jpa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/main/java/com/codegym/demojpa/DemoJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/main/java/com/codegym/demojpa/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/main/java/com/codegym/demojpa/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/main/java/com/codegym/demojpa/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/main/java/com/codegym/demojpa/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/main/java/com/codegym/demojpa/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-jpa/demo-jpa/src/test/java/com/codegym/demojpa/DemoJpaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/build/libs/th_customerManager_thymeleaf-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/build/libs/th_customerManager_thymeleaf-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/AppConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/controler/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/classes/com/codegym/service/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/lib/attoparser-2.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/lib/ognl-3.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/lib/thymeleaf-3.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/lib/thymeleaf-layout-dialect-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/lib/thymeleaf-spring4-3.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/lib/unbescape-1.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.44/apache-tomcat-9.0.44/webapps/ROOT/WEB-INF/views/view.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1stOaAMwUxPy8IggRi5DqLaFmYt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6924dfd2-72b8-4a50-abbf-6672ad0f3366" name="Default Changelist" comment="" />
+      <created>1621688479390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621688479390</updated>
+      <workItem from="1621688482708" duration="256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
