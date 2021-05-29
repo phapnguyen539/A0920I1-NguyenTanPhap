@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Create Blog</h1>
+<form action="/create" method="post" th:object="${blogs}">
+    <p>Name<input type="text" th:field="*{name}"></p>
+    <p>Type<input type="text" th:field="*{type}"></p>
+    <p>Author<input type="text" th:field="*{author}"></p>
+    <label>Language</label>
+<select th:field="*{language}">
+    <th:block th:each="language:${language}">
+        <option th:value="${language.id}" th:text="${language.name}"></option>
+    </th:block>
+</select>
+    <input type="submit" value="Create">
+
+</form>
+
+</body>
+</html>
