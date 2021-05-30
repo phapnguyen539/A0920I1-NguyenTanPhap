@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b55b3080-7212-4e79-bf64-85e1744aa33f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../th_gradle_ktmail/.idea/modules/th_gradle_ktmail.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_gradle_ktmail/.idea/modules/th_gradle_ktmail.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_quanlydanhsachkhachhang/.idea/modules/th_quanlydanhsachkhachhang.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/modules/ungdung_login.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/codegym/qlkh_vld/QlkhVldApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/codegym/qlkh_vld/QlkhVldApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/src/main/java/com/codegym/validate_th/ValidateThApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/src/main/java/com/codegym/validate_th/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/src/main/java/com/codegym/validate_th/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_th/src/test/java/com/codegym/validate_th/ValidateThApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\a0920i1-Nguyen_Tan_Phap\MODULE_04\Thuc_Hanh\validate_infor_user\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tCZGF8B7rLYynVIDSd0XFLTjaH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b55b3080-7212-4e79-bf64-85e1744aa33f" name="Default Changelist" comment="" />
+      <created>1622274934427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622274934427</updated>
+      <workItem from="1622274939606" duration="602000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1622275202558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1622275202558" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1622274939929">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1622274939929" />
+    <state x="65" y="0" key="new project wizard" timestamp="1622275546729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1622275546729" />
+  </component>
+</project>
