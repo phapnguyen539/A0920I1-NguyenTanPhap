@@ -8,12 +8,25 @@
 <h1>Edit User</h1>
 <a href="/">Home</a>
 <form action="/update" method="post" th:object="${users}">
-<P>Id:<input type="text" th:field="*{id}" th:value="${users.id}"></P>
-<p>First Name :<input type="text" th:field="*{firstName}" th:value="${users.firstName}"></p>
+    <P>Id:<input type="text" th:field="*{id}" th:value="${users.id}"></P>
+    <p>First Name :<input type="text" th:field="*{firstName}" th:value="${users.firstName}"></p>
     <p>Last Name :<input type="text" th:field="*{lastName}" th:value="${users.lastName}"></p>
     <p>Phone : <input type="text" th:field="*{phoneNumber}" th:value="${users.phoneNumber}"></p>
     <p>Age<input type="text" th:field="*{age}" th:value="${users.age}"></p>
-    <p>Email:<input type="text" th:field="*{email}" th:value="${users.email}" ></p>
+    <p>Email:<input type="text" th:field="*{email}" th:value="${users.email}"></p>
+    <tr>
+        <td>Province:</td>
+        <td>
+            <select th:field="*{province}">
+                <th:block th:each="pro:${province}" >
+
+                <option  th:value="${pro.id}"
+                th:text="${pro.name}"
+                th:selected="(${pro.id}==*{province.id})"></option>
+                </th:block>
+            </select>
+        </td>
+    </tr>
 
     <input type="submit" value="update">
 </form>

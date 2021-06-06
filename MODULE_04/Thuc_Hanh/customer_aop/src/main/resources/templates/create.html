@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 th:href="@{/create}">Create Customer</h1>
+<a>Home</a>
+<form action="/create" method="post" th:object="${customers}">
+    <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"></td>
+    <p>First Name:<input type="text" th:field="*{firstName}"></p>
+    <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></td>
+    <p>LastName :<input type="text" th:field="*{lastName}"></p>
+    <td th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}"></td>
+    <p>Phone:<input type="text" th:field="*{phoneNumber}"></p>
+    <td th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></td>
+    <p>Age:<input type="text" th:field="*{age}"></p>
+    <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></td>
+    <p>Email:<input type="text" th:field="*{email}"></p>
+     <tr>
+         <td>Province:</td>
+        <select th:fields="*{province}">
+            <option th:each="pro:${provinces}" th:value="${pro.id}" th:text="${pro.name}"></option>
+        </select>
+     </tr>
+    
+       <input type="submit" value="submit">
+</form>
+</body>
+</html>

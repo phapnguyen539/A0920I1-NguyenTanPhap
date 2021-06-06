@@ -11,6 +11,7 @@
     <input type="text" name="key_search">
     <input type="submit" value="search">
     <table border="1">
+        <thead>
         <tr>
            <th>Id</th>
            <th>First Name</th>
@@ -18,8 +19,11 @@
            <th>Phone</th>
            <th>Age</th>
            <th>Email</th>
+            <th>Province</th>
            <th>Action</th>
         </tr>
+        </thead>
+        <tbody>
         <tr th:each="user,start:${users}">
             <td th:text="${start.count}"></td>
             <td th:text="${user.firstName}"></td>
@@ -27,11 +31,14 @@
             <td th:text="${user.phoneNumber}"></td>
             <td th:text="${user.age}"></td>
             <td th:text="${user.email}"></td>
+           <td th:text="${user.province.name}"></td>
+
             <td>
                 <a th:href="@{/edit/{id}(id=${user.getId()})}">Edit</a>
                 <a th:href="@{/delete/{id}(id=${user.getId()})}">Delete</a>
             </td>
         </tr>
+        </tbody>
     </table>
     <div>
         <a th:href="@{'/'(page=${users.number - 1}, key_search=${key_search})}" th:if="${users.hasPrevious()}">Previous</a>
