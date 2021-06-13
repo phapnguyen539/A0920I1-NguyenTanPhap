@@ -12,6 +12,7 @@ import java.util.List;
 public class CourseServiceImpl implements CourseService {
     @Autowired
     CourseRepository courseRepository;
+
     @Override
     public List<Course> findAllCourse() {
         return courseRepository.findAll();

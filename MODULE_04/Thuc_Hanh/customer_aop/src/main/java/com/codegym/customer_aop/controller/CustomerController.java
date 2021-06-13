@@ -21,29 +21,31 @@ import java.util.Optional;
 @Controller
 public class CustomerController {
 
-@Autowired
+    @Autowired
     CustomerService customerService;
-@Autowired
+    @Autowired
     ProvinceService provinceService;
 
-@GetMapping
-public ModelAndView viewCustomer(@RequestParam Optional<String> key_search, @PageableDefault Pageable pageable, Model model) {
-    if (!key_search.isPresent()) {
-        return new ModelAndView("index", "customers", customerService.findAll(pageable));
-    } else {
-        model.addAttribute("key_search",key_search.get());
-return new ModelAndView("index","customers",customerService.findByNameCustomer(key_search.get(),pageable));
+    @GetMapping
+    public ModelAndView viewCustomer(@RequestParam Optional<String> key_search, @PageableDefault Pageable pageable, Model model) {
+        if (!key_search.isPresent()) {
+            return new ModelAndView("index", "customers", customerService.findAll(pageable));
+        } else {
+            model.addAttribute("key_search", key_search.get());
+            return new ModelAndView("index", "customers", customerService.findByNameCustomer(key_search.get(), pageable));
 
+        }
     }
-}
+
     @GetMapping("/create")
-    public ModelAndView viewCreate(Model model,Pageable pageable) {
-        model.addAttribute("provinces",provinceService.findAllProvince(pageable));
-        return new ModelAndView("create","customers",new Customer());
+    public ModelAndView viewCreate(Model model, Pageable pageable) {
+        model.addAttribute("provinces", provinceService.findAllProvince(pageable));
+        return new ModelAndView("create", "customers", new Customer());
     }
+
     @PostMapping("/create")
-    public String saveCreate(@Valid @ModelAttribute("customer") Customer customer, BindingResult bindingResult){
-        if(bindingResult.hasErrors()){
+    public String saveCreate(@Valid @ModelAttribute("customer") Customer customer, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
             return "create";
         }
         customerService.save(customer);
@@ -62,6 +64,6 @@ return new ModelAndView("index","customers",customerService.findByNameCustomer(k
 //    public String updateUser(Customer customer){
 //       customerService.save(customer);
 //        return "redirect:/";
-    }
+}
 
 

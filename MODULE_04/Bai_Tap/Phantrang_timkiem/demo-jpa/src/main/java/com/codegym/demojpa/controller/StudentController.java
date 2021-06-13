@@ -27,23 +27,23 @@ public class StudentController {
     CourseService courseService;
 
     @GetMapping("/")
-    public ModelAndView getHome(@RequestParam <O String> key_search,@PageableDefault(value = 5) Pageable pageable, Model model){
-        if(!key_search.isPresent()){
+    public ModelAndView getHome(@RequestParam Optinal<String>key_search, @PageableDefault(value = 5) Pageable pageable, Model model) {
+        if (!key_search.isPresent()) {
             return new ModelAndView("list", "students", studentService.findAllStudent(pageable));
-        }else {
+        } else {
             model.addAttribute("key_search", key_search.get());
             return new ModelAndView("list", "students", studentService.findStudentByName(key_search.get(), pageable));
         }
     }
 
     @GetMapping("/create")
-    public ModelAndView getCreatePage(Model model){
+    public ModelAndView getCreatePage(Model model) {
         model.addAttribute("courses", courseService.findAllCourse());
         return new ModelAndView("create", "student", new Student());
     }
 
     @PostMapping("/create")
-    public String saveStudent(Student student){
+    public String saveStudent(Student student) {
         studentService.saveStudent(student);
         return "redirect:/";
     }

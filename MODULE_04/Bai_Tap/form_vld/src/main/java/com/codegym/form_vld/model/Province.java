@@ -11,7 +11,7 @@ public class Province {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-@OneToMany(mappedBy = "province")
+    @OneToMany(mappedBy = "province")
     private Set<User> users;
 
     public Province() {

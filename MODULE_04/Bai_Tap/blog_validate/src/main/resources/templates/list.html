@@ -14,27 +14,27 @@
 <table>
     <thead>
     <tr>
-       <th>Id</th>
-       <th>Name</th>
-       <th>Author</th>
-       <th>Type</th>
-       <th>Action</th>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Type</th>
+        <th>Action</th>
     </tr>
     </thead>
-<tbody>
-<tr th:each="blog,start:${blogs}">
-    <td th:text="${start.count}"></td>
-    <td th:text="${blog.name}"></td>
-    <td th:text="${blog.author}"></td>
-    <td th:text="${blog.type}"></td>
-    <td th:text="${blog.language.name}"></td>
-    <td>
-        <a href="#">Edit</a>
-        <a href="#">Delete</a>
-    </td>
-</tr>
+    <tbody>
+    <tr th:each="blog,start:${blogs}">
+        <td th:text="${start.count}"></td>
+        <td th:text="${blog.name}"></td>
+        <td th:text="${blog.author}"></td>
+        <td th:text="${blog.type}"></td>
+        <td th:text="${blog.language.name}"></td>
+        <td>
+            <a href="#">Edit</a>
+            <a href="#">Delete</a>
+        </td>
+    </tr>
 
-</tbody>
+    </tbody>
 </table>
 <div>
     <a th:href="@{'/'(page=${blogs.number - 1}, key_search=${search})}" th:if="${blogs.hasPrevious()}">Previous</a>

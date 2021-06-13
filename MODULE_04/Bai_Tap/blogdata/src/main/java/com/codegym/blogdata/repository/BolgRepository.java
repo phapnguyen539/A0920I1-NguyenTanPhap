@@ -7,9 +7,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface BolgRepository extends JpaRepository<Blog,Integer> {
+public interface BolgRepository extends JpaRepository<Blog, Integer> {
 
-    Page<Blog> findAll (Pageable pageable);
-    Page<Blog> findByNameContaining(String name,Pageable pageable);
+    Page<Blog> findAll(Pageable pageable);
+
+    Page<Blog> findByNameContaining(String name, Pageable pageable);
 }
 

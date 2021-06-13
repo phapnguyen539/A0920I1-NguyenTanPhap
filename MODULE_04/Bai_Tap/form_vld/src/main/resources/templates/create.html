@@ -7,7 +7,6 @@
 <body>
 
 
-
 <h1>Create User</h1>
 <a th:href="@{/}">Home</a>
 <form action="/create" method="post" th:object="${users}">
@@ -22,11 +21,11 @@
     <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Errors</td>
     <p>Email:<input type="text" th:field="*{email}"></p>
     <p>province:</p>
-<select th:field="*{province}">
-<th:block th:each="province:${provinces}">
-    <option th:value="${province.id}" th:text="${province.name}"></option>
-</th:block>
-</select>
+    <select th:field="*{province}">
+        <th:block th:each="province:${provinces}">
+            <option th:value="${province.id}" th:text="${province.name}"></option>
+        </th:block>
+    </select>
 
     <input type="submit" value="DangKy">
 </form>

@@ -23,47 +23,51 @@ public class CustomerController {
 
     @GetMapping
 
-    public ModelAndView viewCustomer(@RequestParam Optional<String> key, @PageableDefault Pageable pageable, Model model){
-if (!key.isPresent()){
-    return new ModelAndView("/customer/list","customers", customerService.findAllCustomer(pageable));
-}else{
-    model.addAttribute("key",key.get());
-    return new ModelAndView("/customer/list","customers",customerService.findByNameCustomer(key.get(),pageable));
-}
+    public ModelAndView viewCustomer(@RequestParam Optional<String> key, @PageableDefault Pageable pageable, Model model) {
+        if (!key.isPresent()) {
+            return new ModelAndView("/customer/list", "customers", customerService.findAllCustomer(pageable));
+        } else {
+            model.addAttribute("key", key.get());
+            return new ModelAndView("/customer/list", "customers", customerService.findByNameCustomer(key.get(), pageable));
+        }
     }
 
     @GetMapping("/create")
-    public ModelAndView showCreate(Model model){
-        model.addAttribute("provinces",provinceService.findAllProvince());
-        return new ModelAndView("/customer/create","customers",new Customer());
+    public ModelAndView showCreate(Model model) {
+        model.addAttribute("provinces", provinceService.findAllProvince());
+        return new ModelAndView("/customer/create", "customers", new Customer());
     }
 
     @PostMapping("/create")
-    public String saveCustomer(Customer customer){
+    public String saveCustomer(Customer customer) {
         customerService.saveCustomer(customer);
         return "redirect:/";
 
     }
+
     @GetMapping("/delete/{id}")
-    public String deleteCustomer( @PathVariable (value="id")int id){
+    public String deleteCustomer(@PathVariable(value = "id") int id) {
         customerService.deleteCustomer(id);
         return "redirect:/";
     }
+
     @GetMapping("/edit-customer/{id}")
-    public ModelAndView editCustomer(@PathVariable(value = "id")int id){
-       Customer customer= customerService.findByIdCustomer(id);
-       if (customer!=null){
-           return new ModelAndView("/customer/edit","customers",customer);
-       }
-       return new ModelAndView("/errors.404");
+    public ModelAndView editCustomer(@PathVariable(value = "id") int id) {
+        Customer customer = customerService.findByIdCustomer(id);
+        if (customer != null) {
+            return new ModelAndView("/customer/edit", "customers", customer);
+        }
+        return new ModelAndView("/errors.404");
     }
+
     @PostMapping("/edit-customer")
-    public String updateCustomer(Customer customer){
+    public String updateCustomer(Customer customer) {
         customerService.saveCustomer(customer);
         return "redirect:/";
     }
+
     @ModelAttribute("provinces")
-    public Iterable<Province> provinces(){
+    public Iterable<Province> provinces() {
         return provinceService.findAllProvince();
     }
 

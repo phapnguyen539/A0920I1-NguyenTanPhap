@@ -26,7 +26,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void deleteUser(int id) {
-    userRepository.deleteById(id);
+        userRepository.deleteById(id);
     }
 
     @Override
@@ -36,6 +36,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Page<User> findByLastNameUser(String name, Pageable pageable) {
-        return userRepository.findByLastNameContaining(name,pageable);
+        return userRepository.findByLastNameContaining(name, pageable);
     }
 }

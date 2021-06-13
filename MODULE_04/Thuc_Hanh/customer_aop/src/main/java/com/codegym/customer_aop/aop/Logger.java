@@ -8,7 +8,8 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class Logger {
-   @AfterThrowing(value = "execution(*com.codegym.customer_aop.controller.CustomerController.*(..))")
-
-
+   @AfterThrowing(pointcut = "execution(public * com.codegym.customer_aop.controller.CustomerController.*(..))",throwing = "e")
+   public void log(Exception e){
+      System.out.println("Co loi xay ra:" + e.getMessage());
+   }
 }

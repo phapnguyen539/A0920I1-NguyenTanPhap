@@ -20,8 +20,8 @@ public class BlogController {
     public ModelAndView getBlog(@RequestParam Optional<String> search) {
         if (!search.isPresent()) {
             return new ModelAndView("list", "blog", blogService.findAllBlog());
-        }else {
-return new ModelAndView("list","blog", blogService.findBlogByName(search.get()));
+        } else {
+            return new ModelAndView("list", "blog", blogService.findBlogByName(search.get()));
         }
     }
 

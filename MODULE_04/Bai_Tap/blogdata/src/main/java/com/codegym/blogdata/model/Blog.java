@@ -10,7 +10,7 @@ public class Blog {
     private String name;
     private String author;
     private String type;
-@ManyToOne
+    @ManyToOne
     private Language language;
 
 

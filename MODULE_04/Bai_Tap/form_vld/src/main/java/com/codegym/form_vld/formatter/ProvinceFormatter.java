@@ -8,13 +8,14 @@ import org.springframework.stereotype.Component;
 
 import java.text.ParseException;
 import java.util.Locale;
+
 @Component
 public class ProvinceFormatter implements Formatter<Province> {
     @Autowired
     ProvinceService provinceService;
 
     public ProvinceFormatter(ProvinceService provinceService) {
-        this.provinceService=provinceService;
+        this.provinceService = provinceService;
     }
 
     @Override
@@ -25,6 +26,6 @@ public class ProvinceFormatter implements Formatter<Province> {
 
     @Override
     public String print(Province province, Locale locale) {
-        return "["+province.getId()+","+province.getName()+"]";
+        return "[" + province.getId() + "," + province.getName() + "]";
     }
 }

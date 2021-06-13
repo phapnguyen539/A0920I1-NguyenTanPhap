@@ -24,7 +24,7 @@ public class BlogServiceIplm implements BlogService {
 
     @Override
     public Page<Blog> findByNameBlog(String name, Pageable pageable) {
-        return bolgRepository.findByNameContaining( name, pageable);
+        return bolgRepository.findByNameContaining(name, pageable);
     }
 
     @Override

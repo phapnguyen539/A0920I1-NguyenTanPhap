@@ -18,11 +18,11 @@
         <td>Province:</td>
         <td>
             <select th:field="*{province}">
-                <th:block th:each="pro:${province}" >
+                <th:block th:each="pro:${province}">
 
-                <option  th:value="${pro.id}"
-                th:text="${pro.name}"
-                th:selected="(${pro.id}==*{province.id})"></option>
+                    <option th:value="${pro.id}"
+                            th:text="${pro.name}"
+                            th:selected="(${pro.id}==*{province.id})"></option>
                 </th:block>
             </select>
         </td>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,7 +8,7 @@
 <h1>Create Customer</h1>
 <form action="/create" method="post" th:object="${customers}">
     <p>FirstName:<input type="text" th:field="*{firstName}"></p>
-    <p>LastName: <input type="text" th:field="*{lastName}"> </p>
+    <p>LastName: <input type="text" th:field="*{lastName}"></p>
     <label>Province:</label>
     <select th:field="*{province}">
 
@@ -22,8 +22,6 @@
     <input type="submit" value="Create">
 
 </form>
-
-
 
 
 </body>

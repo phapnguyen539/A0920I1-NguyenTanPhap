@@ -12,29 +12,29 @@
     <input type="text" name="key">
     <input type="submit" value="search">
 </form>
-    <table border="1">
-<thead>
-        <tr>
-            <th>Id</th>
-            <th>FirstName</th>
-            <th>LastName</th>
-            <th>Province</th>
-            <th>Acction</th>
-        </tr>
-</thead>
-<tbody>
-<tr th:each="customer,start: ${customers}">
-   <td th:text="${start.count}"></td>
-   <td th:text="${customer.firstName}"></td>
-   <td th:text="${customer.lastName}"></td>
-    <td th:text="${customer.province.name}"></td>
-   <td>
-       <a th:href="@{/edit-customer/{id}(id=${customer.getId()})}">Edit</a>
-       <a th:href="@{/delete/{id}(id=${customer.getId()})}">Delete</a>
-   </td>
-</tr>
-</tbody>
-    </table>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Province</th>
+        <th>Acction</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="customer,start: ${customers}">
+        <td th:text="${start.count}"></td>
+        <td th:text="${customer.firstName}"></td>
+        <td th:text="${customer.lastName}"></td>
+        <td th:text="${customer.province.name}"></td>
+        <td>
+            <a th:href="@{/edit-customer/{id}(id=${customer.getId()})}">Edit</a>
+            <a th:href="@{/delete/{id}(id=${customer.getId()})}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
 
 <div>
     <a th:href="@{'/'(page=${customers.number - 1}, key_search=${key})}" th:if="${customers.hasPrevious()}">Previous</a>

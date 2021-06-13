@@ -11,6 +11,7 @@ import java.util.List;
 public class LanguageServiceImpl implements LanguageService {
     @Autowired
     LanguageRepository languageRepository;
+
     @Override
     public List<Language> findAllLanguage() {
         return languageRepository.findAll();

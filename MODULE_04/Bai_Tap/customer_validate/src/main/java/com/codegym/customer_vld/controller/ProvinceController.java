@@ -16,7 +16,7 @@ public class ProvinceController {
     ProvinceService provinceService;
 
     @GetMapping("/provinces")
-    public ModelAndView listProvinces(){
+    public ModelAndView listProvinces() {
         Iterable<Province> provinces = provinceService.findAllProvince();
         ModelAndView modelAndView = new ModelAndView("/province/list");
         modelAndView.addObject("provinces", provinces);
@@ -24,14 +24,14 @@ public class ProvinceController {
     }
 
     @GetMapping("/create-province")
-    public ModelAndView showCreateForm(){
+    public ModelAndView showCreateForm() {
         ModelAndView modelAndView = new ModelAndView("/province/create");
         modelAndView.addObject("province", new Province());
         return modelAndView;
     }
 
     @PostMapping("/create-province")
-    public ModelAndView saveProvince(@ModelAttribute("province") Province province){
+    public ModelAndView saveProvince(@ModelAttribute("province") Province province) {
         provinceService.saveProvince(province);
 
         ModelAndView modelAndView = new ModelAndView("/province/create");
@@ -41,21 +41,21 @@ public class ProvinceController {
     }
 
     @GetMapping("/edit-province/{id}")
-    public ModelAndView showEditForm(@PathVariable int id){
+    public ModelAndView showEditForm(@PathVariable int id) {
         Province province = provinceService.findById(id);
-        if(province != null) {
+        if (province != null) {
             ModelAndView modelAndView = new ModelAndView("/province/edit");
             modelAndView.addObject("province", province);
             return modelAndView;
 
-        }else {
+        } else {
             ModelAndView modelAndView = new ModelAndView("/error.404");
             return modelAndView;
         }
     }
 
     @PostMapping("/edit-province")
-    public ModelAndView updateProvince(@ModelAttribute("province") Province province){
+    public ModelAndView updateProvince(@ModelAttribute("province") Province province) {
         provinceService.saveProvince(province);
         ModelAndView modelAndView = new ModelAndView("/province/edit");
         modelAndView.addObject("province", province);
@@ -64,21 +64,21 @@ public class ProvinceController {
     }
 
     @GetMapping("/delete-province/{id}")
-    public ModelAndView showDeleteForm(@PathVariable int id){
+    public ModelAndView showDeleteForm(@PathVariable int id) {
         Province province = provinceService.findById(id);
-        if(province != null) {
+        if (province != null) {
             ModelAndView modelAndView = new ModelAndView("/province/delete");
             modelAndView.addObject("province", province);
             return modelAndView;
 
-        }else {
+        } else {
             ModelAndView modelAndView = new ModelAndView("/error.404");
             return modelAndView;
         }
     }
 
     @PostMapping("/delete-province")
-    public String deleteProvince(@ModelAttribute("province") Province province){
+    public String deleteProvince(@ModelAttribute("province") Province province) {
         provinceService.deleteProvince(province.getId());
         return "redirect:provinces";
     }

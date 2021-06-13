@@ -1,6 +1,6 @@
 package com.codegym.cookie_user.controller;
 
-import org.apache.catalina.User;
+import com.codegym.cookie_user.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -18,6 +18,7 @@ public class LoginController {
     public User setUpUserForm() {
         return new User();
     }
+
 
     @RequestMapping("/login")
     public String Index(@CookieValue(value = "setUser", defaultValue = "") String setUser, Model model) {

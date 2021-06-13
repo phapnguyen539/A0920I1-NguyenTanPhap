@@ -40,35 +40,40 @@ public class UserController {
 
 
     @GetMapping("/create")
-    public ModelAndView viewCreate(Model model,Pageable pageable) {
-        Page<Province> provinces=provinceService.findAllProvince(pageable);
-        model.addAttribute("provinces",provinceService.findAllProvince(pageable));
-        return new ModelAndView("create","users",new User());
+    public ModelAndView viewCreate(Model model, Pageable pageable) {
+        Page<Province> provinces = provinceService.findAllProvince(pageable);
+        model.addAttribute("provinces", provinceService.findAllProvince(pageable));
+        return new ModelAndView("create", "users", new User());
     }
+
     @PostMapping("/create")
-    public String saveCreate(@Validated @ModelAttribute("user") User user, BindingResult bindingResult){
-        if(bindingResult.hasErrors()){
-             return "create";
+    public String saveCreate(@Validated @ModelAttribute("user") User user, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return "create";
         }
         userService.saveUser(user);
         return "result";
     }
+
     @GetMapping("/delete/{id}")
-    public String deleteUser(@PathVariable (value = "id")int id){
+    public String deleteUser(@PathVariable(value = "id") int id) {
         userService.deleteUser(id);
         return "redirect:/";
     }
+
     @GetMapping("/edit/{id}")
-    public ModelAndView editUser(@PathVariable(value = "id") int id){
-        return new ModelAndView("edit","users",userService.findByIdUser(id));
+    public ModelAndView editUser(@PathVariable(value = "id") int id) {
+        return new ModelAndView("edit", "users", userService.findByIdUser(id));
     }
+
     @PostMapping("/update")
-    public String updateUser(User user){
+    public String updateUser(User user) {
         userService.saveUser(user);
         return "redirect:/";
     }
+
     @ModelAttribute("/province")
-    public Iterable<Province> province(Pageable pageable){
+    public Iterable<Province> province(Pageable pageable) {
         return provinceService.findAllProvince(pageable);
     }
 }

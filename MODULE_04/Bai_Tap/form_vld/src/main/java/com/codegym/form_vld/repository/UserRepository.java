@@ -7,6 +7,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User,Integer> {
-    Page<User> findByLastNameContaining(String name,Pageable pageable);
+public interface UserRepository extends JpaRepository<User, Integer> {
+    Page<User> findByLastNameContaining(String name, Pageable pageable);
 }

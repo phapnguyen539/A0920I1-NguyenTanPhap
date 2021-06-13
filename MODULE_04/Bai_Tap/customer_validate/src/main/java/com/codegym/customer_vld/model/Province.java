@@ -5,12 +5,12 @@ import java.util.List;
 
 @Entity
 public class Province {
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-private int id;
-private String name;
-@OneToMany(targetEntity = Customer.class)
-private List<Customer> customers;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String name;
+    @OneToMany(targetEntity = Customer.class)
+    private List<Customer> customers;
 
     public Province() {
     }
