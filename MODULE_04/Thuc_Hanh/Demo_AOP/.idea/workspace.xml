@@ -2,86 +2,162 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11eeb53d-cb88-47ca-8eba-7a40fb3c8ba9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/book_aop/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/book_aop/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/book_aop/src/main/java/com/codegym/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/book_aop/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/book_aop/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/book_aop/src/main/resources/templates/customer/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/book_aop/src/main/resources/templates/customer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ungdung_login/.idea/ungdung_login.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/src/main/java/com/codegym/demojpa/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/src/main/java/com/codegym/demojpa/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/src/main/java/com/codegym/demojpa/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/src/main/java/com/codegym/demojpa/repository/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/src/main/java/com/codegym/demojpa/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/src/main/java/com/codegym/demojpa/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/src/main/java/com/codegym/demojpa/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/Phantrang_timkiem/demo-jpa/src/main/java/com/codegym/demojpa/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/CartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/repository/CartRepositoty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/service/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/static/img/hoatuoi1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/static/img/hoatuoi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/static/img/hoatuoi3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/static/img/hoatuoi4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/static/img/hoatuoi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/static/img/hoatuoi6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/cart/src/test/java/com/codegym/CartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/test/out/production/test/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/test/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai_Tap/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Demo_AOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/java/com/codegym/controller/DashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/java/com/codegym/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/java/com/codegym/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/java/com/codegym/model/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/resources/messages/message_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/resources/messages/message_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/resources/messages/message_vi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog_i18n/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../create_cart/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../create_cart/.idea/create_cart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../create_cart/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../create_cart/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../create_cart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../create_cart/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../create_cart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/aop/Appconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/aop/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/controller/ProvinceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/java/com/codegym/customer_manager/service/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/province/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/province/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/province/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/province/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_manager/src/main/resources/templates/province/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_i18N/.idea/demo_i18N.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/java/com/codegym/controller/SmartphoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/java/com/codegym/model/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/java/com/codegym/repository/SmartphoneRepositoty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/java/com/codegym/service/SmartphoneImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/java/com/codegym/service/SmartphoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/resources/templates/phones/all-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone_management/src/main/resources/templates/phones/new-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/ShowCartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/java/com/codegym/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/img/abc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/img/hoatuoi1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/img/hoatuoi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/img/hoatuoi3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/img/hoatuoi4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/img/hoatuoi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/img/hoatuoi6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../show_cart/src/test/java/com/codegym/ShowCartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.idea/th_customerManager_thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../validate_infor_user/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../validate_infor_user/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../validate_infor_user/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Bai_Tap/baitap_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/baitap_blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/model/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/model/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/model/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/repository/BolgRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/repository/BolgRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/repository/LanguageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/repository/LanguageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/service/BlogServiceIplm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/service/BlogServiceIplm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/service/LanguageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/service/LanguageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/service/LanguageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/java/com/codegym/blog_validate/service/LanguageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/resources/templates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blog_validate/src/main/resources/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/model/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/model/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/model/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/repository/BolgRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/repository/BolgRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/repository/LanguageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/repository/LanguageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/service/BlogServiceIplm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/service/BlogServiceIplm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/service/LanguageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/service/LanguageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/service/LanguageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/java/com/codegym/blogdata/service/LanguageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/resources/templates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/blogdata/src/main/resources/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/controller/ProvinceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/controller/ProvinceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/formatter/ProvinceFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/formatter/ProvinceFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/model/Province.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/model/Province.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/repository/ProvinceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/repository/ProvinceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/service/ProvinceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/service/ProvinceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/service/ProvinceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/java/com/codegym/customer_vld/service/ProvinceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/templates/customer/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/templates/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/templates/customer/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/customer_validate/src/main/resources/templates/customer/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/formatter/ProvinceFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/formatter/ProvinceFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/model/Province.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/model/Province.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/repository/ProvinceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/repository/ProvinceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/service/ProvinceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/service/ProvinceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/service/ProvinceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/service/ProvinceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/java/com/codegym/form_vld/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/resources/templates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/resources/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/form_vld/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/controller/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/model/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/ripository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/ripository/BlogRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/service/impl/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/service/impl/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/java/com/codegym/ungdung_blog/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_Tap/ungdung_blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cookie_user/src/main/java/com/codegym/cookie_user/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cookie_user/src/main/java/com/codegym/cookie_user/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer_aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer_aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer_aop/src/main/java/com/codegym/customer_aop/aop/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer_aop/src/main/java/com/codegym/customer_aop/aop/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer_aop/src/main/java/com/codegym/customer_aop/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer_aop/src/main/java/com/codegym/customer_aop/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer_aop/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../customer_aop/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdung_login/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdung_login/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdung_login/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdung_login/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../view_session/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../view_session/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cookie_user/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cookie_user/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_app/library_app/src/main/java/com/codegym/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_app/library_app/src/main/java/com/codegym/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../th_customerManager_thymeleaf/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validate_infor_user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../validate_infor_user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module_03/CSS.03/Thuc_hanh_web/Tạo_playout_Bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_03/CSS.03/Thuc_hanh_web/Tạo_playout_Bootstrap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +185,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../customer_aop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library_app" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -122,6 +198,8 @@
       <option name="presentableId" value="Default" />
       <updated>1623230704399</updated>
       <workItem from="1623230706769" duration="173000" />
+      <workItem from="1623982244760" duration="71000" />
+      <workItem from="1624420712149" duration="21000" />
     </task>
     <servers />
   </component>
@@ -129,9 +207,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1623230880622">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1624420731965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623230880622" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624420731965" />
   </component>
 </project>

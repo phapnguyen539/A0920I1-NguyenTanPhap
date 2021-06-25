@@ -37,7 +37,7 @@ public class LoginController {
 
             // create cookie and set it in response
             Cookie cookie = new Cookie("setUser", setUser);
-            cookie.setMaxAge(24 * 60 * 60);
+            cookie.setMaxAge(60);
             response.addCookie(cookie);
 
             //get all cookies
@@ -57,9 +57,6 @@ public class LoginController {
             model.addAttribute("message", "Login success. Welcome ");
         } else {
             user.setEmail("");
-
-
-
             Cookie cookie = new Cookie("setUser", setUser);
             model.addAttribute("cookieValue", cookie);
             model.addAttribute("message", "Login failed. Try again.");

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table>
+        <thead>
+        <tr>
+            <th>Giỏ Hàng(Số lượng SP: <span th:text="${cartNum}"></span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="cart: ${carts}">
+            <th><img th:src="@{/img/{img}(img=${cart.getValue().product.getImg()})}"></th>
+            <td>
+                <span th:text="${cart.getValue().product.getNameProduct()}"></span>
+                <span>Mã SP:</span>
+                <span>Đơn Giá</span>
+                <span>Số lượng</span>
+            </td>
+            <td>
+                <span></span>
+                <span th:text="${cart.getValue().product.getCodeProduct()}"></span>
+                <span th:text="${cart.getValue().product.getNewPrice()}"></span>
+                <input th:value="${cart.getValue().quantity}">
+            </td>
+            <td>Xóa SP</td>
+        </tr>
+        <tr>
+            <th>Tổng Tiền:<span th:text="${cartMoney}"></span></th>
+
+        </tr>
+
+
+        </tbody>
+    </table>
+</form>
+
+</body>
+</html>

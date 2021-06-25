@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot + Internationalization</title>
+</head>
+<body>
+<h1>This is Page 2</h1>
+<h1>Spring Boot + Internationalization</h1>
+<a th:if="${lang}" th:href="${'/?language='+ lang}">Page 1</a>
+<br>
+Language :
+<a href="?language=en">English</a>|
+<a href="?language=vi_VN">Việt Nam</a>|
+<a href="?language=ja_JP">Japanese</a>|
+<a href="?language=fr_FR">France</a>
+<p th:object="${message}">User test</p>
+<p th:text="#{hello}"></p>
+<p th:text="#{goodbye}"></p>
+<br />
+</body>
+</html>

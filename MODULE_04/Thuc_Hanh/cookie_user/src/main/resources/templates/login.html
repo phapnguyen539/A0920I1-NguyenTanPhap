@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Cookie thuc hanh</title>
+    <style type="text/css">
+        h1{background: green; color:white;text-align: center;}
+
+    </style>
 </head>
 <body>
 <h1>User Login</h1>
-<form action="#" th:action="@{/dologin}" th:object="${user}" method="post" >
+<form th:action="@{/dologin}" th:object="${user}" method="post" >
     <table>
         <tr>
             <td>Email:</td>

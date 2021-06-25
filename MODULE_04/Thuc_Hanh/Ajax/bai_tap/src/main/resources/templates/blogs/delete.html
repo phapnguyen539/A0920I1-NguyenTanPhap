@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}">
+</head>
+<body>
+        <input type="hidden" th:field="${blog.id}">
+        <div>
+            Content: <p th:text="${blog.content}"></p>
+            Do you sure to delete?
+        </div>
+        <button id="clickDelete" type="button" class="btn btn-danger"
+                th:onclick="'javascript:actionDelete(\''+ ${blog.id} + '\');'">Delete</button>
+
+<script th:src="@{/bootstrap/jquery/jquery-3.5.1.min.js}"></script>
+<script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{/bootstrap/js/popper.min.js}"></script>
+<script>
+
+</script>
+</body>
+</html>
