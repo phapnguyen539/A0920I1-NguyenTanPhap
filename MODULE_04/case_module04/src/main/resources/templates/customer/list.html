@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+</head>
+<body>
+<form action="/customer" method="get" th:object="${customers}">
+    <a>Search Customer :</a>
+    <input type="text" name="key_search">
+    <input type="submit" value="search">
+    <table>
+        <thead>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Birthday</td>
+            <td>Gender</td>
+            <td>Id Card</td>
+            <td>Phone</td>
+            <td>Email</td>
+            <td>Address</td>
+            <td>Action</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="cus,start:${customers}">
+            <td th:text="${start.count}"></td>
+            <td th:text="${cus.getCustomer_name()}"></td>
+            <td th:text="${cus.getCustomer_birthday()}"></td>
+            <td th:text="${cus.getCustomer_gender()}"></td>
+            <td th:text="${cus.getCustomer_id_card()}"></td>
+            <td th:text="${cus.getCustomer_phone()}"></td>
+            <td th:text="${cus.getCustomer_email()}"></td>
+            <td th:text="${cus.getCustomer_address()}"></td>
+            <td>
+                <a>Edit</a>
+                <a>Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</form>
+<div>
+    <nav aria-label="   Page navigation example" style=" margin-right: 25px">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" th:href="@{/list(page = 0, searchNameCustomer = ${stringAfterCheck})}">Prevous</a></li>
+            <th:block th:each="i: ${#numbers.sequence(0, customers.totalPages - 1)}">
+                <li class="page-item">
+                    <a class="page-link" th:href="@{/list(page=${i},searchNameCustomer=${stringAfterCheck})}" th:text="${i + 1}"></a>
+                </li>
+            </th:block>
+
+            <li class="page-item"><a class="page-link" th:href="@{/list(page = ${customers.totalPages - 1}, searchNameCustomer = ${stringAfterCheck})}">Next</a></li>
+        </ul>
+    </nav>
+</div>
+
+</body>
+</html>

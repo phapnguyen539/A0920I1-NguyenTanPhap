@@ -30,7 +30,7 @@ public class CustomerController {
         return new ModelAndView("customer/create","customers",new Customer());
     }
     @PostMapping
-    public ModelAndView saveCustomer(@ModelAttribute("customers") Customer customer) throws NotAvailableException {
+    public ModelAndView saveCustomer(@ModelAttribute("customers") Customer customer) throws NotAvailableException{
         customerService.save(customer);
         ModelAndView modelAndView= new ModelAndView("customer/create");
         modelAndView.addObject("customers",new Customer());

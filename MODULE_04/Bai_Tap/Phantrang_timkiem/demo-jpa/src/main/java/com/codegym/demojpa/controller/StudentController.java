@@ -39,8 +39,8 @@ public class StudentController {
     @GetMapping("/create")
     public ModelAndView getCreatePage(Model model) {
         model.addAttribute("courses", courseService.findAllCourse());
-        return new ModelAndView("create", "student", new Student());
     }
+        return new ModelAndView("create", "student", new Student());
 
     @PostMapping("/create")
     public String saveStudent(Student student) {
