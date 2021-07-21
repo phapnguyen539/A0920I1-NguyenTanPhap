@@ -17,12 +17,11 @@
 </head>
 <body>
 <h1>List Customer</h1>
-<a th:href="@{customer/create}">Create Customer</a>
-<form th:action="@{/customer}">
+<a class="btn btn-primary btn-lg"  th:href="@{/customer/create}" role="button">CreateCustomer</a>
+<form th:action="@{/customer}" method="get" th:object="${customersL}">
     <a>Search Customer :</a>
     <input type="text" name="searchNameCustomer">
     <input type="submit" value="search">
-</form>
     <table class="table table-condensed">
         <thead>
         <tr>
@@ -34,29 +33,29 @@
             <td>Phone</td>
             <td>Email</td>
             <td>Address</td>
+            <td>Customer Type</td>
             <td>Action</td>
         </tr>
         </thead>
         <tbody>
         <tr th:each="cus,start:${customersL}">
             <td th:text="${start.count}"></td>
-            <td th:text="${cus.getCustomer_name()}"></td>
-            <td th:text="${cus.getCustomer_birthday()}"></td>
-            <td th:text="${cus.getCustomer_gender()}"></td>
-            <td th:text="${cus.getCustomer_id_card()}"></td>
-            <td th:text="${cus.getCustomer_phone()}"></td>
-            <td th:text="${cus.getCustomer_email()}"></td>
-            <td th:text="${cus.getCustomer_address()}"></td>
-            <td th:text="${cus.customer_type.customerTypeName()}"></td>
-
+            <td th:text="${cus.getCustomerName()}"></td>
+            <td th:text="${cus.getCustomerBirthday()}"></td>
+            <td th:text="${cus.getCustomerGender()}"></td>
+            <td th:text="${cus.getCustomerIdCard()}"></td>
+            <td th:text="${cus.getCustomerPhone()}"></td>
+            <td th:text="${cus.getCustomerEmail()}"></td>
+            <td th:text="${cus.getCustomerAddress()}"></td>
+            <td th:text="${cus.customerType.customerTypeName}"></td>
             <td>
-                <a href="#">Edit</a>
-                <a href="#">Delete</a>
+                <a th:href= "@{/edit-customer/__${cus.customerId}__}">Edit</a>
+                <a th:href="@{/delete-customer/__${cus.customerId}__}">Delete</a>
             </td>
         </tr>
         </tbody>
     </table>
-
+</form>
 
 <div>
     <nav aria-label="   Page navigation example" style=" margin-right: 25px">

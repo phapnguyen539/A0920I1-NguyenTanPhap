@@ -7,35 +7,35 @@ import java.util.List;
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int role_id;
-    private String role_name;
+    private int roleId;
+    private String roleName;
     @OneToMany(mappedBy = "role")
-    private List<User_role> user_roles;
+    private List<UserRole> userRoles;
 
     public Role() {
     }
 
-    public List<User_role> getUser_roles() {
-        return user_roles;
+    public int getRoleId() {
+        return roleId;
     }
 
-    public void setUser_roles(List<User_role> user_roles) {
-        this.user_roles = user_roles;
+    public void setRoleId(int roleId) {
+        this.roleId = roleId;
     }
 
-    public int getRole_id() {
-        return role_id;
+    public String getRoleName() {
+        return roleName;
     }
 
-    public void setRole_id(int role_id) {
-        this.role_id = role_id;
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
     }
 
-    public String getRole_name() {
-        return role_name;
+    public List<UserRole> getUserRoles() {
+        return userRoles;
     }
 
-    public void setRole_name(String role_name) {
-        this.role_name = role_name;
+    public void setUserRoles(List<UserRole> userRoles) {
+        this.userRoles = userRoles;
     }
 }

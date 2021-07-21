@@ -2,153 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6924dfd2-72b8-4a50-abbf-6672ad0f3366" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cart/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/CartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/repository/CartRepositoty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/service/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/static/img/hoatuoi1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/static/img/hoatuoi2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/static/img/hoatuoi3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/static/img/hoatuoi4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/static/img/hoatuoi5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/static/img/hoatuoi6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cart/src/test/java/com/codegym/CartApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/out/production/test/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/Demo_AOP/.idea/Demo_AOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/Demo_AOP/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/Demo_AOP/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/Demo_AOP/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/java/com/codegym/controller/DashBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/java/com/codegym/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/java/com/codegym/controller/PageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/java/com/codegym/model/Credential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/java/com/codegym/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/resources/messages/message_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/resources/messages/message_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/resources/messages/message_vi.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/blog_i18n/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/create_cart/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/create_cart/.idea/create_cart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/create_cart/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/create_cart/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/create_cart/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/create_cart/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/create_cart/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/controller/ProvinceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/model/Province.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/repository/ProvinceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/service/ProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/service/ProvinceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/resources/templates/customer/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/resources/templates/customer/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/resources/templates/customer/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/resources/templates/customer/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/resources/templates/province/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/resources/templates/province/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/resources/templates/province/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/resources/templates/province/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/demo_i18N/.idea/demo_i18N.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/java/com/codegym/controller/SmartphoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/java/com/codegym/model/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/java/com/codegym/repository/SmartphoneRepositoty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/java/com/codegym/service/SmartphoneImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/java/com/codegym/service/SmartphoneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/resources/templates/phones/all-phone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/phone_management/src/main/resources/templates/phones/new-phone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/ShowCartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/repository/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/java/com/codegym/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/img/abc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/img/hoatuoi1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/img/hoatuoi2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/img/hoatuoi3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/img/hoatuoi4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/img/hoatuoi5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/img/hoatuoi6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/templates/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/main/resources/templates/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/show_cart/src/test/java/com/codegym/ShowCartApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/th_customerManager_thymeleaf/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_Hanh/th_customerManager_thymeleaf/.idea/th_customerManager_thymeleaf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/Demo_AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/Demo_AOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/cookie_user/src/main/java/com/codegym/cookie_user/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/cookie_user/src/main/java/com/codegym/cookie_user/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/cookie_user/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/cookie_user/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/library_app/library_app/src/main/java/com/codegym/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/library_app/library_app/src/main/java/com/codegym/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/th_customerManager_thymeleaf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/th_customerManager_thymeleaf/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/th_customerManager_thymeleaf/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/th_customerManager_thymeleaf/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module_03/CSS.03/Thuc_hanh_web/Tạo_playout_Bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_03/CSS.03/Thuc_hanh_web/Tạo_playout_Bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/ContractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/repository/ContractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/ContractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/ContractServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/contract/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/contract/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customerType/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customerType/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/demo/demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/demo/demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/CustomerTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/CustomerTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Attach_service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/AttachService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Contract_detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/ContractDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Customer_type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/CustomerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Education_degree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/EducationDegree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Rent_type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/RentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Service_type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/ServiceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/User_role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/repository/CustomerTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/repository/CustomerTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/page/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/page/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +79,7 @@
       <workItem from="1621688482708" duration="256000" />
       <workItem from="1623229701156" duration="24000" />
       <workItem from="1624356967252" duration="18000" />
+      <workItem from="1625724569850" duration="8000" />
     </task>
     <servers />
   </component>
@@ -196,9 +87,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1624356983497">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1625724580936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624356983497" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625724580936" />
   </component>
 </project>

@@ -1,14 +1,12 @@
 package com.codegym.casestudy04.service;
 
-import com.codegym.casestudy04.model.Customer;
-import com.codegym.casestudy04.model.Customer_type;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
+import com.codegym.casestudy04.model.CustomerType;
+
+import java.util.List;
 
 public interface CustomerTypeService  {
-    Page<Customer_type> findAll(Pageable pageable);
-    void save(Customer_type customer_type);
+    List<CustomerType> findAll();
+    void save(CustomerType customerType);
     void  delete(int id);
-    Customer_type findById(int id);
-
+    CustomerType findById(int id);
 }

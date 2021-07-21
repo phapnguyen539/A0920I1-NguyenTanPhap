@@ -7,12 +7,28 @@ import java.util.List;
 public class Division {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int division_id;
-    private String division_name;
+    private int divisionId;
+    private String divisionName;
     @OneToMany(mappedBy = "division")
     private List<Employee> employees;
 
-    public Division(){
+    public Division() {
+    }
+
+    public int getDivisionId() {
+        return divisionId;
+    }
+
+    public void setDivisionId(int divisionId) {
+        this.divisionId = divisionId;
+    }
+
+    public String getDivisionName() {
+        return divisionName;
+    }
+
+    public void setDivisionName(String divisionName) {
+        this.divisionName = divisionName;
     }
 
     public List<Employee> getEmployees() {
@@ -22,20 +38,5 @@ public class Division {
     public void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
-
-    public int getDivision_id() {
-        return division_id;
-    }
-
-    public void setDivision_id(int division_id) {
-        this.division_id = division_id;
-    }
-
-    public String getDivision_name() {
-        return division_name;
-    }
-
-    public void setDivision_name(String division_name) {
-        this.division_name = division_name;
-    }
 }
+

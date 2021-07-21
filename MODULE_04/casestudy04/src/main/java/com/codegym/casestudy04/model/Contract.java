@@ -1,6 +1,9 @@
 package com.codegym.casestudy04.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -8,11 +11,13 @@ public class Contract {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int contract_id;
-    private String contract_start_date;
-    private String contract_end_date;
+    private int contractId;
+
+    private String contractStartDate;
+
+    private String contractEndDate;
     private double deposit;
-    private double contract_total_money;
+    private double contractTotalMoney;
     @ManyToOne
     private Employee employee;
     @ManyToOne
@@ -20,17 +25,49 @@ public class Contract {
     @ManyToOne
     private Service service;
     @OneToMany(mappedBy = "contract")
-    private List<Contract_detail> contract_details;
+    private List<ContractDetail> contractDetails;
 
     public Contract() {
     }
 
-    public List<Contract_detail> getContract_details() {
-        return contract_details;
+    public int getContractId() {
+        return contractId;
     }
 
-    public void setContract_details(List<Contract_detail> contract_details) {
-        this.contract_details = contract_details;
+    public void setContractId(int contractId) {
+        this.contractId = contractId;
+    }
+
+    public String getContractStartDate() {
+        return contractStartDate;
+    }
+
+    public void setContractStartDate(String contractStartDate) {
+        this.contractStartDate = contractStartDate;
+    }
+
+    public String getContractEndDate() {
+        return contractEndDate;
+    }
+
+    public void setContractEndDate(String contractEndDate) {
+        this.contractEndDate = contractEndDate;
+    }
+
+    public double getDeposit() {
+        return deposit;
+    }
+
+    public void setDeposit(double deposit) {
+        this.deposit = deposit;
+    }
+
+    public double getContractTotalMoney() {
+        return contractTotalMoney;
+    }
+
+    public void setContractTotalMoney(double contractTotalMoney) {
+        this.contractTotalMoney = contractTotalMoney;
     }
 
     public Employee getEmployee() {
@@ -57,43 +94,11 @@ public class Contract {
         this.service = service;
     }
 
-    public int getContract_id() {
-        return contract_id;
+    public List<ContractDetail> getContractDetails() {
+        return contractDetails;
     }
 
-    public void setContract_id(int contract_id) {
-        this.contract_id = contract_id;
-    }
-
-    public String getContract_start_date() {
-        return contract_start_date;
-    }
-
-    public void setContract_start_date(String contract_start_date) {
-        this.contract_start_date = contract_start_date;
-    }
-
-    public String getContract_end_date() {
-        return contract_end_date;
-    }
-
-    public void setContract_end_date(String contract_end_date) {
-        this.contract_end_date = contract_end_date;
-    }
-
-    public double getDeposit() {
-        return deposit;
-    }
-
-    public void setDeposit(double deposit) {
-        this.deposit = deposit;
-    }
-
-    public double getContract_total_money() {
-        return contract_total_money;
-    }
-
-    public void setContract_total_money(double contract_total_money) {
-        this.contract_total_money = contract_total_money;
+    public void setContractDetails(List<ContractDetail> contractDetails) {
+        this.contractDetails = contractDetails;
     }
 }

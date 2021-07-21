@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List User</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<h1 style="text-align: center">Tim kiem san pham</h1>
+<a class="btn btn-primary btn-lg" th:href="@{/product/create}" role="button">ThemSanPham</a>
+<form th:action="@{/product}" method="get" th:object="${products}">
+    <tr>
+        <td>
+            <input type="text" name="searchNameProduct" placeholder="Tim theo ten SP">
+        </td>
+        <td>
+            <input type="text" placeholder="Tim theo gia SP">
+            <input class="btn btn-success" type="submit" value="TimKiem">
+        </td>
+    </tr>
+    <table class="table table-condensed">
+        <thead class="table-dark">
+        <tr>
+            <td>STT</td>
+            <td>Chon</td>
+            <td>Ten San Pham</td>
+            <td>Gia Bat Dau</td>
+            <td>Loai San Pham</td>
+            <td>Tinh Trang</td>
+            <td>Hanh Dong</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="pro,start:${products}">
+            <td th:text="${start.count}"></td>
+            <td>
+                <input type="radio">
+            </td>
+            <td th:text="${pro.getName()}"></td>
+            <td th:text="${pro.getPrice()}"></td>
+            <td th:text="${pro.productType.name}"></td>
+            <td th:text="${pro.getStatus()}"></td>
+            <td>
+                <a th:href="@{/edit-product/__${pro.id}__}" class="btn btn-warning">SuaSP</a>
+                <a th:href="@{/delete-product/__${pro.id}__}" class="btn btn-danger">XoaSP</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+<div>
+    <nav aria-label="   Page navigation example" style=" margin-right: 25px">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" th:href="@{/product(page = 0, searchNameProduct = ${check})}">Prevous</a>
+            </li>
+            <th:block th:each="i: ${#numbers.sequence(0, products.totalPages - 1)}">
+                <li class="page-item">
+                    <a class="page-link" th:href="@{/product(page=${i},searchNameProduct=${check})}"
+                       th:text="${i + 1}"></a>
+                </li>
+            </th:block>
+            <li class="page-item"><a class="page-link"
+                                     th:href="@{/product(page = ${products.totalPages - 1}, searchNameProduct = ${check})}">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+</body>
+</html>

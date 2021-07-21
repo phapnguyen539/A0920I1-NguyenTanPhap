@@ -7,6 +7,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class CustomerServiceImpl implements CustomerService {
     @Autowired
@@ -36,5 +38,10 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public Customer findById(int id) {
         return customerRepository.findById(id).orElse(null);
+    }
+
+    @Override
+    public List<Customer> findAll() {
+        return customerRepository.findAll();
     }
 }

@@ -7,18 +7,18 @@ import java.util.List;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int employee_id;
+    private int employeeId;
     private String employeeName;
-    private String employee_birthday;
-    private String employee_id_card;
-    private double employee_salary;
-    private String employee_phone;
-    private String employee_email;
-    private String employee_address;
+    private String employeeBirthday;
+    private String employeeIdCard;
+    private double employeeSalary;
+    private String employeePhone;
+    private String employeeEmail;
+    private String employeeAddress;
     @ManyToOne
     private Position position;
     @ManyToOne
-    private Education_degree education_degree;
+    private EducationDegree educationDegree;
     @ManyToOne
     private Division division;
     @ManyToOne
@@ -29,12 +29,68 @@ public class Employee {
     public Employee() {
     }
 
-    public List<Contract> getContracts() {
-        return contracts;
+    public int getEmployeeId() {
+        return employeeId;
     }
 
-    public void setContracts(List<Contract> contracts) {
-        this.contracts = contracts;
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public String getEmployeeName() {
+        return employeeName;
+    }
+
+    public void setEmployeeName(String employeeName) {
+        this.employeeName = employeeName;
+    }
+
+    public String getEmployeeBirthday() {
+        return employeeBirthday;
+    }
+
+    public void setEmployeeBirthday(String employeeBirthday) {
+        this.employeeBirthday = employeeBirthday;
+    }
+
+    public String getEmployeeIdCard() {
+        return employeeIdCard;
+    }
+
+    public void setEmployeeIdCard(String employeeIdCard) {
+        this.employeeIdCard = employeeIdCard;
+    }
+
+    public double getEmployeeSalary() {
+        return employeeSalary;
+    }
+
+    public void setEmployeeSalary(double employeeSalary) {
+        this.employeeSalary = employeeSalary;
+    }
+
+    public String getEmployeePhone() {
+        return employeePhone;
+    }
+
+    public void setEmployeePhone(String employeePhone) {
+        this.employeePhone = employeePhone;
+    }
+
+    public String getEmployeeEmail() {
+        return employeeEmail;
+    }
+
+    public void setEmployeeEmail(String employeeEmail) {
+        this.employeeEmail = employeeEmail;
+    }
+
+    public String getEmployeeAddress() {
+        return employeeAddress;
+    }
+
+    public void setEmployeeAddress(String employeeAddress) {
+        this.employeeAddress = employeeAddress;
     }
 
     public Position getPosition() {
@@ -45,12 +101,12 @@ public class Employee {
         this.position = position;
     }
 
-    public Education_degree getEducation_degree() {
-        return education_degree;
+    public EducationDegree getEducationDegree() {
+        return educationDegree;
     }
 
-    public void setEducation_degree(Education_degree education_degree) {
-        this.education_degree = education_degree;
+    public void setEducationDegree(EducationDegree educationDegree) {
+        this.educationDegree = educationDegree;
     }
 
     public Division getDivision() {
@@ -69,67 +125,11 @@ public class Employee {
         this.user = user;
     }
 
-    public int getEmployee_id() {
-        return employee_id;
+    public List<Contract> getContracts() {
+        return contracts;
     }
 
-    public void setEmployee_id(int employee_id) {
-        this.employee_id = employee_id;
-    }
-
-    public String getEmployee_name() {
-        return employeeName;
-    }
-
-    public void setEmployee_name(String employee_name) {
-        this.employeeName = employee_name;
-    }
-
-    public String getEmployee_birthday() {
-        return employee_birthday;
-    }
-
-    public void setEmployee_birthday(String employee_birthday) {
-        this.employee_birthday = employee_birthday;
-    }
-
-    public String getEmployee_id_card() {
-        return employee_id_card;
-    }
-
-    public void setEmployee_id_card(String employee_id_card) {
-        this.employee_id_card = employee_id_card;
-    }
-
-    public double getEmployee_salary() {
-        return employee_salary;
-    }
-
-    public void setEmployee_salary(double employee_salary) {
-        this.employee_salary = employee_salary;
-    }
-
-    public String getEmployee_phone() {
-        return employee_phone;
-    }
-
-    public void setEmployee_phone(String employee_phone) {
-        this.employee_phone = employee_phone;
-    }
-
-    public String getEmployee_email() {
-        return employee_email;
-    }
-
-    public void setEmployee_email(String employee_email) {
-        this.employee_email = employee_email;
-    }
-
-    public String getEmployee_address() {
-        return employee_address;
-    }
-
-    public void setEmployee_address(String employee_address) {
-        this.employee_address = employee_address;
+    public void setContracts(List<Contract> contracts) {
+        this.contracts = contracts;
     }
 }

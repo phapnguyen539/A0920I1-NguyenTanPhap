@@ -9,13 +9,29 @@ import java.util.List;
 public class User {
     @Id
     private String userName;
-    private String user_password;
+    private String userPassword;
     @OneToMany(mappedBy = "user")
     private List<Employee> employees;
     @OneToMany(mappedBy = "user")
-    private List<User_role> user_roles;
+    private List<UserRole> userRoles;
 
     public User() {
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserPassword() {
+        return userPassword;
+    }
+
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
 
     public List<Employee> getEmployees() {
@@ -26,29 +42,11 @@ public class User {
         this.employees = employees;
     }
 
-    public List<User_role> getUser_roles() {
-        return user_roles;
+    public List<UserRole> getUserRoles() {
+        return userRoles;
     }
 
-    public void setUser_roles(List<User_role> user_roles) {
-        this.user_roles = user_roles;
-    }
-
-
-
-    public String getUser_name() {
-        return userName;
-    }
-
-    public void setUser_name(String user_name) {
-        this.userName = user_name;
-    }
-
-    public String getUser_password() {
-        return user_password;
-    }
-
-    public void setUser_password(String user_password) {
-        this.user_password = user_password;
+    public void setUserRoles(List<UserRole> userRoles) {
+        this.userRoles = userRoles;
     }
 }

@@ -1,55 +1,68 @@
 <!DOCTYPE html>
-<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Create Customer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
 </head>
 <body>
 <h1>Create Customer</h1>
-<form action="/create" th:object="${customers}" method="post" >
-<table>
-    <tr>
-        <td>Id: <input type="text" th:field="*{customer_id}"></td>
-    </tr>
-    <tr>
-        <td>Name:<input type="text" th:field="*{customer_name}"></td>
-    </tr>
-    <tr>
-        <td>Birthday:<input type="text" th:field="*{customer_birthday}"></td>
-    </tr>
-    <tr>
-        <td>Gender:<input type="text" th:field="*{customer_gender}"></td>
-    </tr>
-    <tr>
-        <td>Id Card:<input type="text" th:field="*{customer_id_card}"></td>
-    </tr>
-    <tr>
-        <td>Phone:<input type="text" th:field="*{customer_phone}"></td>
-    </tr>
-    <tr>
-        <td>Email:<input type="text" th:field="*{customer_email}"></td>
-    </tr>
-    <tr>
-        <td>Address:<input type="text" th:field="*{customer_address}"></td>
-    </tr>
-    <tr>
-        <td>Customer Type:</td>
-        <td>
-<select th:field="*{customer_type}">
-<th:block th:each="type:${customerType}">
-    <option th:value="${type.customer_type_id}" th:text="${type.customerTypeName}"></option>
-</th:block>
+<a class="btn btn-primary btn-lg" href="/customer" role="button">ListCustomer</a>
+<form th:action="@{/customer/create}" th:object="${customers}" method="post">
 
-</select>
-        </td>
+    <td th:if="${#fields.hasErrors('customerName')}" th:errors="*{customerName}">Name Error</td>
+    <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">Name</span>
+        </div>
+        <input type="text" class="form-control" aria-describedby="addon-wrapping" th:field="*{customerName}">
+    </div>
 
-    </tr>
-    <tr>
-        <td>
-            <input type="submit" value="Create Customer">
-        </td>
-    </tr>
-</table>
+    <td th:if="${#fields.hasErrors('customerBirthday')}" th:errors="*{customerBirthday}">Birthday Error</td>
+    <label for="basic-url">Birthday</label>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+               th:field="*{customerBirthday}">
+    </div>
+
+
+    <td th:if="${#fields.hasErrors('customerGender')}" th:errors="*{customerGender}">Gender Error</td>
+    <p>Gender:<input type="text" th:field="*{customerGender}"></p>
+
+    <td th:if="${#fields.hasErrors('customerIdCard')}" th:errors="*{customerIdCard}">Id Card Error</td>
+    <p>Id Card:<input type="text" th:field="*{customerIdCard}"></p>
+
+    <td th:if="${#fields.hasErrors('customerPhone')}" th:errors="*{customerPhone}">Phone Error</td>
+    <p>Phone:<input type="text" th:field="*{customerPhone}"></p>
+
+    <td th:if="${#fields.hasErrors('customerEmail')}" th:errors="*{customerEmail}">Email Error</td>
+    <p>Email:<input type="text" th:field="*{customerEmail}"></p>
+
+
+    <td th:if="${#fields.hasErrors('customerAddress')}" th:errors="*{customerAddress}">Address Error</td>
+    <p>Address:<input type="text" th:field="*{customerAddress}"></p>
+
+
+    <td>Customer Type:</td>
+    <td>
+        <select th:field="*{customerType}">
+            <option th:each="type:${customerTypes}" th:value="${type.customerTypeId}"
+                    th:text="${type.customerTypeName}"></option>
+        </select>
+    </td>
+
+
+    <td>
+        <input type="submit" value="Create Customer">
+    </td>
+
 </form>
 </body>
 </html>
