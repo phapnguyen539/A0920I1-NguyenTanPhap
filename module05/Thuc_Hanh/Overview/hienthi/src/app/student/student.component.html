@@ -1,0 +1,8 @@
+<h3>List Student</h3>
+<p>Id: {{student.id}}</p>
+<p>Name: {{student.name}}</p>
+<p>Mark: {{student.mark}}</p>
+<p>Image:</p> <img [src]="student.image">
+<br>
+<!--<input type="number" (change)="onChange($event.target.value)">-->
+<input type="number" [(ngModel)]="student.mark">
