@@ -1,0 +1,14 @@
+<h1>Student Information !</h1>
+<div class="card" style="width:500px">
+  <img [src]="student.avatar" alt="image">
+  <div class="card-body">
+    <p>Id:{{student.id}}</p>
+    <p>Name:{{student.name}}</p>
+    <p>Age:{{student.age}}</p>
+    <p>Mark:{{student.mark}}</p>
+    <!--<input type="number" (change)="onMark($event.target.value)">-->
+    <input type="number" [(ngModel)]="student.mark">
+  </div>
+</div>
+
+
