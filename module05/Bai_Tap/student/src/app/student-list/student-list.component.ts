@@ -9,8 +9,15 @@ import {studentDao} from '../repository/studentDao';
 })
 export class StudentListComponent implements OnInit {
   students: IStudent[] = studentDao;
+  studentDetail: IStudent;
   constructor() { }
 
   ngOnInit(): void {
+  }
+  getStudent(value){
+    this.studentDetail = value;
+  }
+  catchMark(value){
+    console.log('Giá trị tại component cha:' + value);
   }
 }

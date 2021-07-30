@@ -6,7 +6,6 @@
     <th>Name</th>
     <th>Age</th>
     <th>Mark</th>
-    <th>Avatar</th>
     <th>Result</th>
     <th>Action</th>
   </tr>
@@ -21,11 +20,10 @@
     <td *ngIf="stu.mark >= 5" class="text-success">Pass</td>
     <td *ngIf="stu.mark < 5 " class="text-danger">Fail</td>
     <td>
-      <button class="btn-success">Detail</button>
+      <button class="btn-success" (click)="getStudent(stu)">Detail</button>
     </td>
   </tr>
   </tbody>
 </table>
-
-<app-student-information></app-student-information>
+<app-student-information (throwMark)="catchMark($event)" [studentChild]="studentDetail"> </app-student-information>
 

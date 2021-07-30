@@ -1,0 +1,32 @@
+
+<!--<div *ngFor="let art of articles">-->
+<!--  <a href="{{art.url}}" target="_blank">{{art.title}}</a>-->
+<!--</div>-->
+<!--<button (click)="addArticle()">Add</button>-->
+<!--<div *ngFor="let art of articles">-->
+<!--  <a href="{{art.url}}" target="_blank">{{art.title}}</a>-->
+<!--  <app-likes></app-likes>-->
+<!--</div>-->
+<table class="table table-striped table-hover">
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Like</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let art of articleId">
+    <td>{{art.id}}</td>
+    <td><a href="{{art.url}}" target="_blank">{{art.title}}</a></td>
+    <td>
+      <app-likes></app-likes>
+    </td>
+    <td>
+      <button (click)="addArticle()">Add</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<app-article></app-article>

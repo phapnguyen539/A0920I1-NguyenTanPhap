@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {IStudent} from '../model/IStudent';
+import {mark} from '@angular/compiler-cli/src/ngtsc/perf/src/clock';
 
 @Component({
   selector: 'app-student-information',
@@ -7,20 +8,18 @@ import {IStudent} from '../model/IStudent';
   styleUrls: ['./student-information.component.css']
 })
 export class StudentInformationComponent implements OnInit {
-  student: IStudent = {
-    id: 1,
-    name: 'Tan Viet',
-    age: 20,
-    mark: 7,
-    avatar: 'https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg'
-  }
+ @Input()
+ studentChild: IStudent;
+ @Output()
+ throwMark = new EventEmitter();
 
   constructor() { }
 
   ngOnInit(): void {
   }
   onMark(value: any){
-    this.student.mark = value;
+    this.studentChild.mark = value;
+    this.throwMark.emit(value);
   }
 
 }
