@@ -16,7 +16,7 @@
     <td>{{stu.name | titlecase}}</td>
     <td>{{stu.age}}</td>
     <td>{{stu.mark}}</td>
-    <td> <img [src]="stu.avatar" class="avatar"></td>
+    <td><img [src]="stu.avatar" class="avatar"></td>
     <td *ngIf="stu.mark >= 5" class="text-success">Pass</td>
     <td *ngIf="stu.mark < 5 " class="text-danger">Fail</td>
     <td>
@@ -25,5 +25,15 @@
   </tr>
   </tbody>
 </table>
-<app-student-information (throwMark)="catchMark($event)" [studentChild]="studentDetail"> </app-student-information>
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <app-student-information (throwMark)="catchMark($event)" [studentChild]="studentDetail"></app-student-information>
+    </div>
+    <div class="col-6">
+      <app-reactive-form></app-reactive-form>
+    </div>
+  </div>
+</div>
+
 

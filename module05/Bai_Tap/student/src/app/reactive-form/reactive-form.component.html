@@ -1,0 +1,28 @@
+<h2>Reactive Form !</h2>
+<form [formGroup]="createForm" (ngSubmit)="getForm()">
+  <div class="form-group">
+    <label>Id</label>
+    <input type="text" class="form-control" formControlName="id">
+  </div>
+  <div class="alert-danger" *ngIf="createForm.get('id').invalid && createForm.get('id').touched">Id không được để trống!!</div>
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" class="form-control" formControlName="name">
+  </div>
+  <div class="alert-danger" *ngIf="createForm.get('name').invalid && createForm.get('name').untouched">Tên Không được để trống!!</div>
+  <div class="form-group">
+    <label>Age</label>
+    <input type="text" class="form-control" formControlName="age">
+  </div>
+  <div class="alert-danger" *ngIf="createForm.get('age').invalid && createForm.get('age').dirty">Tuổi không được để trống !!</div>
+  <div class="form-group">
+    <label>Mark</label>
+    <input type="number" class="form-control" formControlName="mark">
+  </div>
+  <div class="alert-danger" *ngIf="createForm.get('mark').invalid && createForm.get('mark').pristine">Điểm không được để trống!!</div>
+  <div class="form-group">
+    <label>Avatar</label>
+    <input type="text" class="form-control" formControlName="avatar">
+  </div>
+  <input type="submit" value="Create" class="bg-primary">
+</form>
