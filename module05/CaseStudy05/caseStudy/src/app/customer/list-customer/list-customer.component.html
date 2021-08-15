@@ -1,4 +1,5 @@
 <h1>List Customer!!!</h1>
+<a routerLink="/create-customer">Create Customer</a>
 <table class="table table-striped table-hover">
   <thead>
   <tr>
@@ -24,10 +25,10 @@
     <td>{{custom.phone}}</td>
     <td>{{custom.email}}</td>
     <td>{{custom.address}}</td>
-    <td>{{custom.type}}</td>
+    <td>{{custom.typeCustomer.nameCustomerType}}</td>
     <td>
-      <a><button type="button" class="bg-danger">Delete</button></a>
-      <a><button type="button" class="bg-success">Edit</button></a>
+      <a><button type="button" class="bg-danger" [routerLink]="['/delete-customer',custom.id]">Delete</button></a>
+      <a><button type="button" class="bg-success" [routerLink]="['/edit-customer/',custom.id]">Edit</button></a>
     </td>
   </tr>
   </tbody>

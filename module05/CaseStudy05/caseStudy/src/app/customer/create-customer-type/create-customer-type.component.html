@@ -1,0 +1,12 @@
+<h2>Create CustomerType</h2>
+<form [formGroup]="createCustomerType" (ngSubmit)="getCustomerType()">
+  <div class="form-group">
+    <label>Id:</label>
+    <input type="text" class="form-control" formControlName="id">
+  </div>
+  <div class="form-group">
+    <label>Name:</label>
+    <input type="text" class="form-control" formControlName="nameCustomerType">
+  </div>
+  <input type="submit" value="Add" class="bg-primary">
+</form>

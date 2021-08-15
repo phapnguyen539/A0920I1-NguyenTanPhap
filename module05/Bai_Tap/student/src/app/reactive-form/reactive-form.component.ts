@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {studentDao} from '../repository/studentDao';
-import validate = WebAssembly.validate;
 import {StudentService} from '../student.service';
-
+import {Router} from '@angular/router';
 @Component({
   selector: 'app-reactive-form',
   templateUrl: './reactive-form.component.html',
@@ -12,7 +10,8 @@ import {StudentService} from '../student.service';
 export class ReactiveFormComponent implements OnInit {
   createForm: FormGroup;
 
-  constructor(private studentService: StudentService) { }
+  constructor(private studentService: StudentService, private router: Router) {
+  }
 
   ngOnInit(): void {
     this.createForm = new FormGroup({
@@ -23,9 +22,11 @@ export class ReactiveFormComponent implements OnInit {
       avatar: new FormControl('')
     });
   }
-  getForm(){
-   // studentDao.unshift(this.createForm.value);
-    this.studentService.addNewStudent(this.createForm.value);
-  }
 
+  getForm() {
+    // studentDao.unshift(this.createForm.value);
+    this.studentService.addNewStudent(this.createForm.value).subscribe(() => {
+      this.router.navigate(['/']);
+    });
+  }
 }

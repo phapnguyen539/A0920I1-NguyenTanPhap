@@ -1,0 +1,29 @@
+
+<div class="row justify-content-md-center">
+  <div class="col-md-6">
+    <h2 style="text-align: center; color: blue; background: darksalmon">Edit Student !</h2>
+    <form [formGroup]="updateForm" (ngSubmit)="getUpdate()">
+      <div class="form-group">
+        <label>Id</label>
+        <input type="text" class="form-control" formControlName="id">
+      </div>
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" formControlName="name">
+      </div>
+      <div class="form-group">
+        <label>Age</label>
+        <input type="text" class="form-control" formControlName="age">
+      </div>
+      <div class="form-group">
+        <label>Mark</label>
+        <input type="number" class="form-control" formControlName="mark">
+      </div>
+      <div class="form-group">
+        <label>Avatar</label>
+        <input type="text" class="form-control" formControlName="avatar">
+      </div>
+      <input type="submit" value="Update" class="bg-primary">
+    </form>
+  </div>
+</div>

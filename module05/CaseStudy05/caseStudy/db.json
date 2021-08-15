@@ -1,0 +1,164 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Viet",
+      "birthday": 10,
+      "gender": "Nam",
+      "card": 1234,
+      "phone": 12121212,
+      "email": "viet@gmail.com",
+      "address": "Quang Nam",
+      "typeCustomer": {
+        "id": "5",
+        "nameCustomerType": "kim cuong"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Tan",
+      "birthday": 10,
+      "gender": "Nam",
+      "card": 1234,
+      "phone": 12121212,
+      "email": "tan@gmail.com",
+      "address": "Da Nang",
+      "typeCustomer": {
+        "id": 1,
+        "nameCustomerType": "vip"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tu",
+      "birthday": 10,
+      "gender": "Nam",
+      "card": 1234,
+      "phone": 12121212,
+      "email": "tu@gmail.com",
+      "address": "Hue",
+      "typeCustomer": {
+        "id": 1,
+        "nameCustomerType": "vip"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Anh",
+      "birthday": 10,
+      "gender": "Nam",
+      "card": 1234,
+      "phone": 12121212,
+      "email": "anh@gmail.com",
+      "address": "Nghe An",
+      "typeCustomer": {
+        "id": 1,
+        "nameCustomerType": "vip"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Long",
+      "birthday": 10,
+      "gender": "Nam",
+      "card": 1234,
+      "phone": 12121212,
+      "email": "long@gmail.com",
+      "address": "Ha Noi",
+      "typeCustomer": {
+        "id": 2,
+        "nameCustomerType": "pro"
+      }
+    },
+    {
+      "id": 6,
+      "name": "",
+      "birthday": "",
+      "gender": "",
+      "card": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "typeCustomer": ""
+    },
+    {
+      "id": 7,
+      "name": "",
+      "birthday": "",
+      "gender": "",
+      "card": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "typeCustomer": ""
+    },
+    {
+      "id": 8,
+      "name": "1",
+      "birthday": "1",
+      "gender": "1",
+      "card": "1",
+      "phone": "1",
+      "email": "1",
+      "address": "1",
+      "typeCustomer": {
+        "id": 1,
+        "nameCustomerType": "excellent"
+      }
+    },
+    {
+      "id": 9,
+      "name": "",
+      "birthday": "",
+      "gender": "",
+      "card": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "typeCustomer": {
+        "id": "5",
+        "name": "kim cuong"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Long",
+      "birthday": "09",
+      "gender": "Nam",
+      "card": "1234",
+      "phone": "0909",
+      "email": "long@gmail.com",
+      "address": "Đa Năng",
+      "typeCustomer": {
+        "id": "5",
+        "nameCustomerType": "kim cuong"
+      }
+    }
+  ],
+  "typeCustomer": [
+    {
+      "id": 1,
+      "nameCustomerType": "vip"
+    },
+    {
+      "id": 2,
+      "nameCustomerType": "pro"
+    },
+    {
+      "id": 3,
+      "nameCustomerType": "excellent"
+    },
+    {
+      "id": "4",
+      "nameCustomerType": "gold"
+    },
+    {
+      "id": "5",
+      "nameCustomerType": "kim cuong"
+    },
+    {
+      "id": "6",
+      "nameCustomerType": "bac"
+    }
+  ]
+}

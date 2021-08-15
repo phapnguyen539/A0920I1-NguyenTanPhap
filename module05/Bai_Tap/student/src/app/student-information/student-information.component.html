@@ -1,15 +1,13 @@
 
-<div class="card" style="width:500px" *ngIf="studentChild">
+<div class="card" style="width:500px" *ngIf="studentDetail">
   <h1>Student Information !</h1>
-  <img [src]="studentChild.avatar" alt="image">
+  <img [src]="studentDetail.avatar" alt="image">
   <div class="card-body">
-    <p>Id:{{studentChild.id}}</p>
-    <p>Name:{{studentChild.name}}</p>
-    <p>Age:{{studentChild.age}}</p>
-    <p>Mark:{{studentChild.mark}}</p>
-    <input type="number" (change)="onMark($event.target.value)">
+    <p>Id:{{studentDetail.id}}</p>
+    <p>Name:{{studentDetail.name}}</p>
+    <p>Age:{{studentDetail.age}}</p>
+    <p>Mark:{{studentDetail.mark}}</p>
+<!--    <input type="number" (change)="onMark($event.target.value)">-->
 <!--    <input type="number" [(ngModel)]="studentChild.mark">-->
   </div>
 </div>
-
-
