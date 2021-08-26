@@ -1,0 +1,9 @@
+.container-fluid > .row {
+    margin: 40px;
+}
+.btn{
+    width: 160px;
+}
+.container > .form-control > .row > span{
+    color: red;
+}

@@ -33,8 +33,9 @@
       </div>
       <div class="form-group">
         <label>Type Customer :</label>
-        <select formControlName="typeCustomer" >
-          <option *ngFor="let type of typeCustomer" [ngValue]="type">{{type.nameCustomerType}}</option>
+        <select formControlName="typeCustomer" class="form-control">
+          <option [selected]="type.nameCustomerType == updateForm.controls.typeCustomer.value.nameCustomerType"
+                  *ngFor="let type of typeCustomers" [ngValue]="type">{{type.nameCustomerType}}</option>
         </select>
         </div>
       <input type="submit" value="Update" class="bg-primary">

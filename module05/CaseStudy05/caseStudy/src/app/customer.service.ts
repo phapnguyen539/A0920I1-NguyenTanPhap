@@ -32,4 +32,10 @@ export class CustomerService {
   deleteCustomer(id: number): Observable<Customers>{
     return this.httpClient.delete<Customers>(this.API_URL + '/' + id);
   }
+  findByName(nameSearch: string): Observable<Customers[]>{
+    return this.httpClient.get<Customers[]>(this.API_URL + '?name_like=' + nameSearch);
+  }
+  findBySearchId(idSearch: number): Observable<Customers[]>{
+    return this.httpClient.get<Customers[]>(this.API_URL + '?id_like=' + idSearch);
+  }
 }

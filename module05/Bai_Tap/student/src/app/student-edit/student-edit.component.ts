@@ -49,4 +49,13 @@ export class StudentEditComponent implements OnInit {
       this.router.navigate(['/']);
     });
   }
+  onselectFile(e){
+    if (e.target.files){
+      var reader= new FileReader();
+      reader.readAsDataURL(e.target.files);
+      reader.onload = (event: any) => {
+        this.editStudent.avatar = event.target.result;
+      }
+    }
+  }
 }

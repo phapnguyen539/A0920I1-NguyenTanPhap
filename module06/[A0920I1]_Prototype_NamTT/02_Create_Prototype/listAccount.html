@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=baseline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=outline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=round -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=sharp -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=twotone -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+
+<body>
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid ">
+            <div class="card shadow">
+                <div class="col-12 card-header d-flex justify-content-between">
+                    <div class="col-8 mt-auto mb-auto">
+                        <a class=" btn btn-secondary"><i class="fas fa-plus-circle nav-icon"></i> Thêm Tài Khoản</a>
+                    </div>
+                    <div class="col-4 input-group mt-auto mb-auto">
+                        <input type="search" class="form-control" placeholder="Tìm kiếm">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-default">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
+                            <thead class="bg-secondary">
+                                <tr>
+                                    <th class="text-center">ID</th>
+                                    <th class="text-left">Tên Đăng Nhập</th>
+                                    <th class="text-left">Họ Tên</th>
+                                    <th class="text-left">Quyền</th>
+                                    <th class="text-left">Bộ Phận</th>
+                                    <th class="text-center" colspan="3">Hành Động</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center">1</td>
+                                    <td class="text-left">QuocTrung001</td>
+                                    <td class="text-left">Trần Quốc Trung</td>
+                                    <td class="text-left">Admin</td>
+                                    <td class="text-left">Quản Lý Công Ty</td>
+                                    <td class="text-center">
+                                        <a href="#myModal" class="trigger-btn" data-toggle="modal" data-target="#myModal">
+                                            <span class="material-icons">
+                                                delete
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="">
+                                            <span class="material-icons">
+                                                edit
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center"><a href="detailAccount.html"><span
+                                                class="material-icons text-info">info</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td class="text-left">AnhKhang</td>
+                                    <td class="text-left">Trần Anh Khang</td>
+                                    <td class="text-left">User</td>
+                                    <td class="text-left">Phòng Máy 1</td>
+                                    <td class="text-center">
+                                        <a href="#myModal" class="trigger-btn" data-toggle="modal" data-target="#myModal">
+                                            <span class="material-icons">
+                                                delete
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="">
+                                            <span class="material-icons">
+                                                edit
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center"><a href="#"><span
+                                                class="material-icons text-info">info</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">3</td>
+                                    <td class="text-left">DiemMy</td>
+                                    <td class="text-left">Trần Diễm My</td>
+                                    <td class="text-left">User</td>
+                                    <td class="text-left">Phòng Máy 2</td>
+                                    <td class="text-center">
+                                        <a href="#myModal" class="trigger-btn" data-toggle="modal" data-target="#myModal">
+                                            <span class="material-icons">
+                                                delete
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="">
+                                            <span class="material-icons">
+                                                edit
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center"><a href="#"><span
+                                                class="material-icons text-info">info</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">4</td>
+                                    <td class="text-left">DoHoaKhang</td>
+                                    <td class="text-left">Đỗ Hoa Khang</td>
+                                    <td class="text-left">User</td>
+                                    <td class="text-left">Phòng Máy 3</td>
+                                    <td class="text-center">
+                                        <a href="#myModal" class="trigger-btn" data-toggle="modal" data-target="#myModal">
+                                            <span class="material-icons">
+                                                delete
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="">
+                                            <span class="material-icons">
+                                                edit
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center"><a href="#"><span
+                                                class="material-icons text-info">info</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">5</td>
+                                    <td class="text-left">OngTho</td>
+                                    <td class="text-left">Sữa Ông Thọ</td>
+                                    <td class="text-left">User</td>
+                                    <td class="text-left">IT HelpDesk</td>
+                                    <td class="text-center">
+                                        <a href="#myModal" class="trigger-btn" data-toggle="modal" data-target="#myModal">
+                                            <span class="material-icons">
+                                                delete
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="">
+                                            <span class="material-icons">
+                                                edit
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center"><a href="#"><span
+                                                class="material-icons text-info">info</span></a></td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Modal -->
+
+                    <div id="myModal" class="modal fade">
+                        <div class="modal-dialog modal-confirm">
+                            <div class="modal-content">
+                                <div class="modal-header flex-column">
+                                    <div class="icon-box">
+                                        <i class="material-icons">&#xE5CD;</i>
+                                    </div>
+                                    <h4 class="modal-title w-100">Bạn chắc chắn chứ ?</h4>
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Bạn thực sự muốn xóa tài khoản <b style="color: red;">QuocTrung001</b> ra khỏi
+                                        danh sách ? Thao tác sẽ xóa tài khoản ra khỏi danh sách này !</p>
+                                </div>
+                                <div class="modal-footer justify-content-center">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-danger">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+
+
+                    <div class="d-flex flex-row justify-content-center ">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Đầu</a>
+                                </li>
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1"><i class="fas fa-chevron-left"></i></a>
+                                </li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link text-dark" href="#"><i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link text-dark" href="#">Cuối</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</html>

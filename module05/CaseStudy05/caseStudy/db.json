@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Viet",
-      "birthday": 10,
+      "birthday": "2021-05-15",
       "gender": "Nam",
       "card": 1234,
       "phone": 12121212,
@@ -17,21 +17,21 @@
     {
       "id": 2,
       "name": "Tan",
-      "birthday": 10,
+      "birthday": "2021-05-15",
       "gender": "Nam",
       "card": 1234,
       "phone": 12121212,
       "email": "tan@gmail.com",
       "address": "Da Nang",
       "typeCustomer": {
-        "id": 1,
-        "nameCustomerType": "vip"
+        "id": 3,
+        "nameCustomerType": "excellent"
       }
     },
     {
       "id": 3,
       "name": "Tu",
-      "birthday": 10,
+      "birthday": "2003-05-15",
       "gender": "Nam",
       "card": 1234,
       "phone": 12121212,
@@ -45,7 +45,7 @@
     {
       "id": 4,
       "name": "Anh",
-      "birthday": 10,
+      "birthday": "2005-05-15",
       "gender": "Nam",
       "card": 1234,
       "phone": 12121212,
@@ -59,7 +59,7 @@
     {
       "id": 5,
       "name": "Long",
-      "birthday": 10,
+      "birthday": "2018-05-15",
       "gender": "Nam",
       "card": 1234,
       "phone": 12121212,
@@ -72,30 +72,36 @@
     },
     {
       "id": 6,
-      "name": "",
-      "birthday": "",
-      "gender": "",
-      "card": "",
+      "name": "Tan Viet",
+      "birthday": "2021-09-15",
+      "gender": "Nam",
+      "card": "1209",
       "phone": "",
-      "email": "",
-      "address": "",
-      "typeCustomer": ""
+      "email": "viet@gmail.com",
+      "address": "Ha Noi",
+      "typeCustomer": {
+        "id": "5",
+        "nameCustomerType": "kim cuong"
+      }
     },
     {
       "id": 7,
-      "name": "",
-      "birthday": "",
-      "gender": "",
-      "card": "",
+      "name": "7",
+      "birthday": "2021-08-15",
+      "gender": "7",
+      "card": "7",
       "phone": "",
-      "email": "",
-      "address": "",
-      "typeCustomer": ""
+      "email": "7",
+      "address": "7",
+      "typeCustomer": {
+        "id": "6",
+        "nameCustomerType": "bac"
+      }
     },
     {
       "id": 8,
       "name": "1",
-      "birthday": "1",
+      "birthday": "2021-07-15",
       "gender": "1",
       "card": "1",
       "phone": "1",
@@ -108,22 +114,22 @@
     },
     {
       "id": 9,
-      "name": "",
-      "birthday": "",
-      "gender": "",
-      "card": "",
+      "name": "9",
+      "birthday": "2021-04-15",
+      "gender": "9",
+      "card": "9",
       "phone": "",
-      "email": "",
-      "address": "",
+      "email": "9",
+      "address": "9",
       "typeCustomer": {
-        "id": "5",
-        "name": "kim cuong"
+        "id": 2,
+        "nameCustomerType": "pro"
       }
     },
     {
       "id": "10",
       "name": "Long",
-      "birthday": "09",
+      "birthday": "2021-06-15",
       "gender": "Nam",
       "card": "1234",
       "phone": "0909",
@@ -159,6 +165,188 @@
     {
       "id": "6",
       "nameCustomerType": "bac"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Long",
+      "birthday": 12,
+      "card": 123,
+      "phone": 456,
+      "email": "long@gmail.com",
+      "level": {
+        "id": 1,
+        "nameLevel": "Trung Cap"
+      },
+      "positionEmployee": {
+        "id": 5,
+        "namePosition": "Giam doc"
+      },
+      "salary": 5000
+    },
+    {
+      "id": 2,
+      "name": "Dat",
+      "birthday": 12,
+      "card": 123,
+      "phone": 456,
+      "email": "dat@gmail.com",
+      "level": {
+        "id": 1,
+        "nameLevel": "Trung Cap"
+      },
+      "positionEmployee": {
+        "id": 5,
+        "namePosition": "Giam doc"
+      },
+      "salary": 5000
+    },
+    {
+      "id": 3,
+      "name": "Viet",
+      "birthday": 12,
+      "card": 123,
+      "phone": 456,
+      "email": "viet@gmail.com",
+      "level": {
+        "id": 1,
+        "nameLevel": "Trung Cap"
+      },
+      "positionEmployee": {
+        "id": 5,
+        "namePosition": "Giam doc"
+      },
+      "salary": 5000
+    },
+    {
+      "id": 4,
+      "name": "Tu",
+      "birthday": 12,
+      "card": 123,
+      "phone": 456,
+      "email": "tu@gmail.com",
+      "level": {
+        "id": 1,
+        "nameLevel": "Trung Cap"
+      },
+      "positionEmployee": {
+        "id": 5,
+        "namePosition": "Giam doc"
+      },
+      "salary": 5000
+    },
+    {
+      "id": 5,
+      "name": "Hoang",
+      "birthday": 12,
+      "card": 123,
+      "phone": 456,
+      "email": "hoang@gmail.com",
+      "level": {
+        "id": 1,
+        "nameLevel": "Trung Cap"
+      },
+      "positionEmployee": {
+        "id": 5,
+        "namePosition": "Giam doc"
+      },
+      "salary": 5000
+    },
+    {
+      "id": 6,
+      "name": "Tan",
+      "birthday": 12,
+      "card": 123,
+      "phone": 456,
+      "email": "tan@gmail.com",
+      "level": {
+        "id": 1,
+        "nameLevel": "Trung Cap"
+      },
+      "positionEmployee": {
+        "id": 5,
+        "namePosition": "Giam doc"
+      },
+      "salary": 5000
+    },
+    {
+      "id": 7,
+      "name": "Tri",
+      "birthday": 12,
+      "card": 123,
+      "phone": 456,
+      "email": "tri@gmail.com",
+      "level": {
+        "id": 1,
+        "nameLevel": "Trung Cap"
+      },
+      "positionEmployee": {
+        "id": 5,
+        "namePosition": "Giam doc"
+      },
+      "salary": 5000
+    },
+    {
+      "id": "8",
+      "name": "Phap",
+      "birthday": "2021-07-31T17:00:00.000Z",
+      "card": "1234",
+      "phone": "0909",
+      "email": "phap@gmail.com",
+      "level": {
+        "id": 1,
+        "nameLevel": "Trung Cap"
+      },
+      "positionEmployee": {
+        "id": 2,
+        "namePosition": "Phuc vu"
+      },
+      "salary": "2000"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "nameLevel": "Trung Cap"
+    },
+    {
+      "id": 2,
+      "nameLevel": "Cao Dang"
+    },
+    {
+      "id": 3,
+      "nameLevel": "Dai Hoc"
+    },
+    {
+      "id": 4,
+      "nameLevel": "Sau Dai Hoc"
+    }
+  ],
+  "positionEmployee": [
+    {
+      "id": 1,
+      "namePosition": "Le Tan"
+    },
+    {
+      "id": 2,
+      "namePosition": "Phuc vu"
+    },
+    {
+      "id": 3,
+      "namePosition": "Giam sat"
+    },
+    {
+      "id": 4,
+      "namePosition": "Quan ly"
+    },
+    {
+      "id": 5,
+      "namePosition": "Giam doc"
+    },
+    {
+      "id": 1,
+      "namePosition": "Tong Giam Doc"
     }
   ]
 }

@@ -21,7 +21,7 @@
       </div>
       <div class="form-group">
         <label>Avatar</label>
-        <input type="text" class="form-control" formControlName="avatar">
+        <input type="file" (change)="onselectFile($event)" class="form-control" formControlName="avatar">
       </div>
       <input type="submit" value="Update" class="bg-primary">
     </form>

@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 import {Customers} from '../model/customer';
 import {CustomerService} from '../customer.service';
 import {ActivatedRoute, ParamMap, Router} from '@angular/router';
+import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-delete-customer',
@@ -9,29 +10,21 @@ import {ActivatedRoute, ParamMap, Router} from '@angular/router';
   styleUrls: ['./delete-customer.component.css']
 })
 export class DeleteCustomerComponent implements OnInit {
-  deleteCustomer: Customers;
-  idCustomer: number;
+  public customerName;
+  public customerId;
 
-  constructor(private customerService: CustomerService,
-              private activatedRoute: ActivatedRoute, private  router: Router) { }
+  constructor(private customerService: CustomerService, public dialogRef: MatDialogRef<DeleteCustomerComponent>,
+              @Inject(MAT_DIALOG_DATA) public data: any) {
+  }
 
   ngOnInit(): void {
-    this.activatedRoute.paramMap.subscribe((paramMap: ParamMap) => {
-      // tslint:disable-next-line:radix
-      this.idCustomer = parseInt(paramMap.get('id'));
-      this.customerService.findById(this.idCustomer).subscribe((data) => {
-        this.deleteCustomer = data ;
-        console.log( this.deleteCustomer = data);
-      });
-    });
+    this.customerName = this.data.data1.name;
+    this.customerId = this.data.data1.id;
   }
-  deleteCus() {
-    this.activatedRoute.paramMap.subscribe((paramMap: ParamMap) => {
-      // tslint:disable-next-line:radix
-      this.idCustomer = parseInt(paramMap.get('id'));
-      this.customerService.deleteCustomer(this.idCustomer).subscribe(() => {
-        this.router.navigate(['/']);
-      });
+
+  deleteCustomer() {
+    this.customerService.deleteCustomer(this.customerId).subscribe((data) => {
+      this.dialogRef.close();
     });
   }
 

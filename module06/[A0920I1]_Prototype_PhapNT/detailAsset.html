@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+        #add {
+            margin-left: 100px;
+        }
+
+        #search {
+            margin-left: 700px;
+        }
+    </style>
+
+</head>
+<body>
+
+<!--Đây là Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary table-hover">
+    <a href="#" style="color: white" class="fa-lg"><i class="fa fa-home fa-lg" style="margin-right: 5px"></i> Trang chủ</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" style="margin-left: 10px">
+                <a class="nav-link active" href="#"><i class="fa fa-briefcase"> Quản Lý Phòng Họp </i></a>
+            </li>
+            <li class="nav-item" style="margin-left: 10px">
+                <a class="nav-link active" href="#"><i class="fa fa-dollar"> Quản Lý Tài Sản </i></a>
+            </li>
+            <li class="nav-item" style="margin-left: 10px">
+                <a class="nav-link active" href="#"><i class="fa fa-users "> Quản Lý Người Dùng </i></a>
+            </li>
+            <li class="nav-item" style="margin-left: 10px">
+                <a class="nav-link active" href="#"><i class="fa fa-bookmark "> Thống Kê </i></a>
+            </li>
+
+            <li class="dropdown"><a class="dropdown-toggle nav-link active dropdown-toggle" data-toggle="dropdown"
+                                    aria-expanded="false" href="#" style="margin-left: 10px"><i class="fa fa-list-alt ">
+                Xem Phản Hồi </i></a>
+                <div class="dropdown-menu" role="menu">
+                    <a class="dropdown-item" role="presentation" href="#"> Danh Sách Phản Hồi</a>
+                    <a class="dropdown-item" role="presentation" href="#">Phản Hồi Hệ Thống(Kỹ Thuật)</a>
+                    <a class="dropdown-item" role="presentation" href="#">Phải Hồi Khác</a></div>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
+            <li class="nav-item order-2 order-md-1"><a href="#" class="nav-link" title="settings"><i class="fa fa-cog fa-fw fa-lg"></i></a></li>
+            <li class="dropdown order-1">
+                <button type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-danger dropdown-toggle" style="color: white">Login <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right mt-2">
+                    <li class="px-3 py-2">
+                        <form class="form" role="form">
+                            <div class="form-group">
+                                <input id="emailInput" placeholder="Email" class="form-control form-control-sm" type="text" required="">
+                            </div>
+                            <div class="form-group">
+                                <input id="passwordInput" placeholder="Password" class="form-control form-control-sm" type="text" required="">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-block">Login</button>
+                            </div>
+                            <div class="form-group text-center">
+                                <small><a href="#" data-toggle="modal" data-target="#modalPassword">Forgot password?</a></small>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="modalPassword" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Forgot password</h3>
+                <button type="button" class="close font-weight-light" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Reset your password..</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                <button class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Kết thúc Navbar-->
+<div class="container-fluid">
+<h2 style="text-align: center">Chi Tiết Tài Sản</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h6 class="mb-0">Tên tài sản:</h6>
+                        </div>
+                            <div class="col-sm-7 text-secondary">
+                                Máy chiếu
+                            </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h6 class="mb-0">Mô tả:</h6>
+                        </div>
+                        <div class="col-sm-7 text-secondary">
+                            Máy chiếu hệ mới
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h6 class="mb-0">Số lượng:</h6>
+                        </div>
+                        <div class="col-sm-7 text-secondary">
+                            50
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h6 class="mb-0">Giá:</h6>
+                        </div>
+                        <div class="col-sm-7 text-secondary">
+                         $500
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h6 class="mb-0">Đang sửa:</h6>
+                        </div>
+                        <div class="col-sm-7 text-secondary">
+                            5
+                        </div>
+                    </div>
+                </div>
+            </div><hr>
+            <h5>Danh sách phòng đang sử dụng tài sản:</h5>
+            <table class="table table-hover" border="1">
+                <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên Phòng</th>
+                    <th>Số lượng đang sử dụng</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>5.3.b</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>5.3.b</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>5.3.b</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5.3.b</td>
+                    <td>2</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-items-center text-center">
+                                <img src="https://topav.com.vn/uploads/Anh-Kien-Thuc-Audio/chon-ong-kinh-may-chieu.jpg"
+                                     width="300" height="173.38">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-items-center text-center">
+                                <img src="https://topav.com.vn/uploads/Anh-Kien-Thuc-Audio/chon-ong-kinh-may-chieu.jpg"
+                                     width="300" height="173.38">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-items-center text-center">
+                                <img src="https://topav.com.vn/uploads/Anh-Kien-Thuc-Audio/chon-ong-kinh-may-chieu.jpg"
+                                     width="300" height="173.38">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-items-center text-center">
+                                <img src="https://topav.com.vn/uploads/Anh-Kien-Thuc-Audio/chon-ong-kinh-may-chieu.jpg"
+                                     width="300" height="173.38">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="d-flex justify-content-center mt-5"-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+    </ul>
+</nav>
+
+<!--footer ở đây-->
+<footer class="bg-white">
+    <div class="container py-5">
+        <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+                <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt.</p>
+                <ul class="list-inline mt-4">
+                    <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                            class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                            class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                            class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                            class="fa fa-pinterest"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                            class="fa fa-vimeo"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">A0920I1</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><a href="#" class="text-muted">For Women</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">Wishlist</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+                <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque
+                    temporibus.</p>
+                <div class="p-1 rounded border">
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
+                               class="form-control border-0 shadow-0">
+                        <div class="input-group-append">
+                            <button id="button-addon1" type="submit" class="btn btn-link"><i
+                                    class="fa fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+        <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<!--kết thúc footer ở đây-->
+</body>
+</html>

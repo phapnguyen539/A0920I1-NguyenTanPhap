@@ -25,7 +25,7 @@
   <div class="alert-danger" *ngIf="createForm.get('mark').invalid && createForm.get('mark').pristine">Điểm không được để trống!!</div>
   <div class="form-group">
     <label>Avatar</label>
-    <input type="text" class="form-control" formControlName="avatar">
+    <input type="file" (change)="onselectFile($event)" class="form-control" formControlName="avatar">
   </div>
   <input type="submit" value="Create" class="bg-primary">
 </form>

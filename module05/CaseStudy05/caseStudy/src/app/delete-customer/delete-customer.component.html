@@ -1,10 +1,7 @@
-<div class=”text-center”>
-  <h2>Bạn có chắc muốn xóa ?</h2>
-</div>
-<label class=”col”>
-  Name Customer:
-  <span>{{deleteCustomer.name}}</span>
-</label>
-<div class=”col”>
-  <button class=”btn btn-info” type=”submit” (click)="deleteCus()">Delete</button>
+<h3>Xác nhận xóa !</h3>
+<hr>
+<p class="my-3" style="color: #B33BEB">Bạn chắc chắn muốn xóa ! &nbsp;<span class="text-danger font-weight-bold">{{customerName}}</span></p>
+<div>
+  <button mat-dialog-close class="btn btn-warning mr-3">Huy</button>
+  <button (click)="deleteCustomer()" class="btn btn-danger m-3" >Xoa</button>
 </div>

@@ -2,43 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6924dfd2-72b8-4a50-abbf-6672ad0f3366" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/ContractController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/repository/ContractRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/ContractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/ContractServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/contract/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/contract/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customerType/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customerType/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/customer_manager/src/main/java/com/codegym/customer_manager/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_Hanh/demo/demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_Hanh/demo/demo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/CustomerTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/controller/CustomerTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Attach_service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/AttachService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Contract_detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/ContractDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Customer_type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/CustomerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Education_degree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/EducationDegree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Rent_type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/RentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/Service_type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/ServiceType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/User_role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/model/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/repository/CustomerTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/repository/CustomerTypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/java/com/codegym/casestudy04/service/CustomerTypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/customer/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/page/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudy04/src/main/resources/templates/page/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/app/model/quanLyBenhAn.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/model/employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/model/level.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/model/positionEmployee.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thi_module04/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../thi_module04/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/app/student-delete/student-delete.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/app/student-delete/student-delete.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/app/student-list/student-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/app/student-list/student-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/app/student-list/student-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/app/student-list/student-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/student/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/Bai_Tap/thi05/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/create-customer/create-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/create-customer/create-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/create-customer/create-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/create-customer/create-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/edit-customer/edit-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/edit-customer/edit-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/edit-customer/edit-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/edit-customer/edit-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/list-customer/list-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/list-customer/list-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/list-customer/list-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/customer/list-customer/list-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/delete-customer/delete-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/delete-customer/delete-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/delete-customer/delete-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/delete-customer/delete-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module05/CaseStudy05/caseStudy/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +58,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ungdung_blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blogdata" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,6 +81,7 @@
       <workItem from="1623229701156" duration="24000" />
       <workItem from="1624356967252" duration="18000" />
       <workItem from="1625724569850" duration="8000" />
+      <workItem from="1629687472529" duration="30000" />
     </task>
     <servers />
   </component>
@@ -87,9 +89,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1625724580936">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1629687499501">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625724580936" />
+    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1629687499501" />
   </component>
 </project>

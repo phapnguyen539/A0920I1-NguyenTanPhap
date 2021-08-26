@@ -10,13 +10,21 @@ import {HttpClientModule} from '@angular/common/http';
 import { CreateCustomerComponent } from './customer/create-customer/create-customer.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import { EditCustomerComponent } from './customer/edit-customer/edit-customer.component';
 import { CreateCustomerTypeComponent } from './customer/create-customer-type/create-customer-type.component';
 import { DeleteCustomerComponent } from './delete-customer/delete-customer.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {NgxPaginationModule} from 'ngx-pagination';
+import { ListEmployeeComponent } from './employee/list-employee/list-employee.component';
+import {MatInputModule} from '@angular/material/input';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatDialogModule} from '@angular/material/dialog';
+import { MatSortModule} from '@angular/material/sort';
+import { CreateEmployeeComponent } from './employee/create-employee/create-employee.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +35,9 @@ import {MatNativeDateModule} from '@angular/material/core';
     CreateCustomerComponent,
     EditCustomerComponent,
     CreateCustomerTypeComponent,
-    DeleteCustomerComponent
+    DeleteCustomerComponent,
+    ListEmployeeComponent,
+    CreateEmployeeComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +49,13 @@ import {MatNativeDateModule} from '@angular/material/core';
     MatFormFieldModule,
     MatSelectModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatSnackBarModule,
+    NgxPaginationModule,
+    MatInputModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]

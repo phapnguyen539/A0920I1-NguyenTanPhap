@@ -1,5 +1,18 @@
 <h1>List Customer!!!</h1>
-<a routerLink="/create-customer">Create Customer</a>
+<a routerLink="/create-customer" class="btn btn-primary">Create Customer</a>
+<br>
+<br>
+<div class="form-inline">
+  <input class="form-control mr-sm-2" [(ngModel)]="name" placeholder="Tim kiem theo ten!"> <br>
+  <button class=" btn btn-outline-primary my-2 my-sm-0" (click)="searchName()">TimKiem</button>
+  <input class="form-control mr-sm-2" [(ngModel)]="id" placeholder="Tim kiem theo ID!"> <br>
+  <button class=" btn btn-outline-primary my-2 my-sm-0" (click)="searchId()">TimKiem</button>
+</div>
+<br>
+<!--<div class="form-inline">-->
+<!--  <input class="form-control mr-sm-2" [(ngModel)]="id" placeholder="Tim kiem theo ID!"> <br>-->
+<!--  <button class=" btn btn-outline-primary my-2 my-sm-0" (click)="searchId()">TimKiem</button>-->
+<!--</div>-->
 <table class="table table-striped table-hover">
   <thead>
   <tr>
@@ -12,11 +25,12 @@
     <th>Email</th>
     <th>Address</th>
     <th>Type</th>
-    <th>Action</th>
+    <th>Delete</th>
+    <th>Edit</th>
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let custom of customers">
+  <tr *ngFor="let custom of customers | paginate: {itemsPerPage:4, currentPage: p} ">
     <td>{{custom.id}}</td>
     <td>{{custom.name}}</td>
     <td>{{custom.birthday}}</td>
@@ -27,10 +41,11 @@
     <td>{{custom.address}}</td>
     <td>{{custom.typeCustomer.nameCustomerType}}</td>
     <td>
-      <a><button type="button" class="bg-danger" [routerLink]="['/delete-customer',custom.id]">Delete</button></a>
-      <a><button type="button" class="bg-success" [routerLink]="['/edit-customer/',custom.id]">Edit</button></a>
+      <a><button type="button" style="background: crimson ; color: aliceblue" (click)="openDialogDelete(custom.id)">Delete</button></a>
     </td>
+    <td> <a><button type="button" style="background: green; color: aliceblue" [routerLink]="['/edit-customer/',custom.id]">Edit</button></a></td>
   </tr>
   </tbody>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
 
 </table>

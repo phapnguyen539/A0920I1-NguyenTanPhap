@@ -1,0 +1,56 @@
+
+<div class="row justify-content-md-center">
+  <div class="col-md-6">
+    <h2 style="text-align: center; color: blue; background: darksalmon">Edit Student !</h2>
+    <form [formGroup]="updateBenhAn" (ngSubmit)="getUpdate()">
+      <div class="form-group">
+        <label>Id</label>
+        <input type="text" class="form-control" formControlName="id">
+      </div>
+      <div class="form-group">
+        <label>MaBenhNhan</label>
+        <input type="text" class="form-control" formControlName="maBenhNhan">
+        <div class="alert-danger" *ngIf="updateBenhAn.get('maBenhNhan').invalid && updateBenhAn.get('maBenhNhan').untouched">Ma Không được để trống!!</div>
+      </div>
+      <div class="form-group">
+        <label>MaBenhAn</label>
+        <input type="text" class="form-control" formControlName="maBenhAn">
+        <div class="alert-danger" *ngIf="updateBenhAn.get('maBenhAn').invalid && updateBenhAn.get('maBenhAn').untouched">Ma Không được để trống!!</div>
+      </div>
+      <div class="form-group">
+        <label>TenBenhNhan</label>
+        <input type="text" class="form-control" formControlName="tenBenhNhan">
+      </div>
+      <div class="form-group">
+        <mat-form-field appearance="fill">
+          <mat-label>NgayNhapVien</mat-label>
+          <input matInput [matDatepicker]="picker" class="form-control" formControlName="ngayNhapVien">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+      </div>
+      <div class="form-group">
+        <mat-form-field appearance="fill">
+          <mat-label>NgayRaVien</mat-label>
+          <input matInput [matDatepicker]="picker" class="form-control" formControlName="ngayRaVien">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+      </div>
+      <div class="form-group">
+        <label>LyDoNhapVien</label>
+        <input type="text" class="form-control" formControlName="lyDoNhapVien">
+      </div>
+      <div class="form-group">
+      <label>PhuongPhapDieuTri</label>
+      <input type="text" class="form-control" formControlName="phuongPhapDieuTri">
+    </div>
+      <div class="form-group">
+      <label>BacSi</label>
+      <input type="text" class="form-control" formControlName="bacSi">
+    </div>
+      <input type="submit" value="Update" class="bg-primary">
+    </form>
+  </div>
+</div>

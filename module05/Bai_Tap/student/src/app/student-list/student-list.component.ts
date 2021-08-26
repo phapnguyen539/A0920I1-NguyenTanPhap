@@ -13,8 +13,11 @@ export class StudentListComponent implements OnInit {
   students: IStudent[] = [];
   parentStudentDetail: IStudent;
   name: string;
-  collection: any = [];
+  id: number;
   p: number = 1;
+  flag: any;
+  order: string;
+  collection: any;
 
   constructor(private studentService: StudentService, private dialog: MatDialog) {
   }
@@ -41,7 +44,6 @@ export class StudentListComponent implements OnInit {
       }
     )
   }
-
   openDialogDelete(studentId): void {
     this.studentService.findById(studentId).subscribe(data => {
       const dialogReg = this.dialog.open(StudentDeleteComponent,{
@@ -54,4 +56,24 @@ export class StudentListComponent implements OnInit {
       })
     })
   }
+  key: string = 'id';
+  reverse: boolean =false;
+  sort(key){
+    this.key = key;
+    this.reverse = !this.reverse;
+  }
+  // sortByName(){
+  //     if (this.flag){
+  //       this.order = 'asc';
+  //       this.studentService.sortByName(this.order).subscribe((data) => {
+  //         this.collection = data;
+  //       });
+  //       this.flag= false;
+  //     }else {
+  //       this.order = 'desc';
+  //       this.studentService.sortByName(this.order).subscribe((data) =>{
+  //         this.collection = true;
+  //       })
+  //     }
+  // }
 }

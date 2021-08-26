@@ -1,0 +1,52 @@
+<h1 xmlns:itemsPerPage="http://www.w3.org/1999/xhtml" xmlns:itemsPerPage="http://www.w3.org/1999/xhtml"
+    xmlns:itemsPerPage="http://www.w3.org/1999/xhtml">List Student !</h1>
+<a class="btn btn-success" routerLink="/create">Them Moi</a>
+<hr>
+<!--<div class="form-inline">-->
+<!--  <input class="form-control mr-sm-2" [(ngModel)]="name" placeholder="Nhap ten muon tim.."> <br>-->
+<!--  <button class=" btn btn-outline-primary my-2 my-sm-0" (click)="searchName()">Search</button>-->
+<!--</div>-->
+<!--<br>-->
+<table class="table table-striped table-hover">
+  <thead>
+  <tr>
+    <th>STT</th>
+    <th>MaBenhNhan</th>
+    <th>MaBenhAn</th>
+    <th>TenBenhNhan</th>
+    <th>Ngay Nhap Vien</th>
+    <th>Ngay Ra Vien</th>
+    <th>LyDoNhapVien</th>
+    <th>PhuongPhapDieuTri</th>
+    <th>BacSi</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let benh of benhAns">
+    <td>{{benh.id}}</td>
+    <td>{{benh.maBenhNhan}}</td>
+    <td>{{benh.maBenhAn | titlecase}}</td>
+    <td>{{benh.tenBenhNhan}}</td>
+    <td>{{benh.ngayNhapVien}}</td>
+    <td>{{benh.ngayRaVien}}</td>
+    <td>{{benh.lyDoNhapVien}}</td>
+    <td>{{benh.phuongPhapDieuTri}}</td>
+    <td>{{benh.bacSi}}</td>
+    <td>
+      <button class="btn btn-danger m-md-3" (click)="openDialogDelete(benh.id)">XoaBenhAn</button>
+      <button class="btn btn-warning" [routerLink]="['/edit-benhan/',benh.id]">SuaBenhAn</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<!--<div class="container">-->
+<!--  <div class="row">-->
+<!--    <div class="col-6">-->
+<!--      <app-student-information (throwMark)="catchMark($event)" [studentChild]="studentDetail"></app-student-information>-->
+<!--    </div>-->
+<!--    <div class="col-6">-->
+<!--      <app-reactive-form></app-reactive-form>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->

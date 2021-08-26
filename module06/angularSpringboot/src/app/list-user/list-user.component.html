@@ -1,0 +1,24 @@
+<table class="table table-hover table-striped">
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>FirstName</th>
+    <th>LastName</th>
+    <th>Email</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let user of users">
+    <td>{{user.id}}</td>
+    <td>{{user.firstName}}</td>
+    <td>{{user.lastName}}</td>
+    <td>{{user.email}}</td>
+    <td>
+      <button class="btn btn-danger m-md-3">Delete</button>
+      <button class="btn btn-warning">Edit</button>
+    </td>
+
+  </tr>
+  </tbody>
+</table>

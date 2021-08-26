@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="687f6e85-9335-4ded-ab24-a4da41d772c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Case-Study-2/demo/src/app/model/ICustomer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case-Study-2/demo/src/app/model/ICustomerTyper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/case-study/src/app/create-customer/create-customer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study-3/demo3/src/app/model/ICustomer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study-3/demo3/src/app/model/ICustomerType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-crud-search/demo4/src/app/navber/navber.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-crud-search/demo4/src/app/navber/navber.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-crud-search/demo4/src/app/navber/navber.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-crud-search/demo4/src/app/navber/navber.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-crud-search/demo4/src/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ket noi backend/demo/src/app/IPost.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test/src/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi-modul-5/module5/src/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module6/Agular-Demo/demo/src/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module6/demo/src/main/java/com/example/demo/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module6/demo/src/main/java/com/example/demo/model/CustomerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-gradle/Gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../config-gradle/Gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module4/Case Study/test/src/main/java/com/example/test/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module4/Case Study/test/src/main/java/com/example/test/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/app/student-list/student-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/src/app/student-list/student-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1xDnDGZ2b0iftgvS0WJT6ssIcsS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="687f6e85-9335-4ded-ab24-a4da41d772c9" name="Default Changelist" comment="" />
+      <created>1629898404731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629898404731</updated>
+      <workItem from="1629898406197" duration="2672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629898516421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629898516421" />
+  </component>
+</project>

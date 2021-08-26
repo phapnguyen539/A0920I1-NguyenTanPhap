@@ -1,0 +1,44 @@
+<h1 style="text-align: center; color: blue">List Employee!!!</h1>
+<a routerLink="/create-employee" class="btn btn-primary" >Create Employee</a>
+<div class="form-inline">
+  <input class="form-control mr-sm-2" [(ngModel)]="name" placeholder="Tim kiem theo ten!"> <br>
+  <button class=" btn btn-outline-primary my-2 my-sm-0" (click)="searchName()">TimKiem</button>
+</div>
+<div class="form-inline">
+  <input class="form-control mr-sm-2" [(ngModel)]="id" placeholder="Tim kiem theo ID!"> <br>
+  <button class=" btn btn-outline-primary my-2 my-sm-0" (click)="searchId()">TimKiem</button>
+</div>
+<table class="table table-striped table-hover">
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Birthday</th>
+    <th>Card</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th>Level</th>
+    <th>PositionEmployee</th>
+    <th>Salary</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let employ of employees | paginate: {itemsPerPage:4, currentPage: p} ">
+    <td>{{employ.id}}</td>
+    <td>{{employ.name}}</td>
+    <td>{{employ.birthday}}</td>
+    <td>{{employ.card}}</td>
+    <td>{{employ.phone}}</td>
+    <td>{{employ.email}}</td>
+    <td>{{employ.level.nameLevel}}</td>
+    <td>{{employ.positionEmployee.namePosition}}</td>
+    <td>{{employ.salary}}</td>
+    <td>
+      <a><button type="button" style="background: crimson ; color: aliceblue">Delete</button></a>
+    </td>
+    <td> <a><button type="button" style="background: green; color: aliceblue" [routerLink]="['/edit-customer/',employ.id]">Edit</button></a></td>
+  </tr>
+  </tbody>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</table>

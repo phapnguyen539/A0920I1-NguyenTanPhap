@@ -1,19 +1,26 @@
 {
-  "posts": [
+  "quanLyBenhAn": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "maBenhNhan": 1,
+      "maBenhAn": "BN1",
+      "tenBenhNhan": "Long",
+      "ngayNhapVien": "2001-05-05",
+      "ngayRaVien": "2009-02-03",
+      "lyDoNhapVien": "Dau Da Day",
+      "phuongPhapDieuTri": "Tiem Thuoc",
+      "bacSi": "Trung"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "maBenhNhan": 1,
+      "maBenhAn": "BN1",
+      "tenBenhNhan": "Long",
+      "ngayNhapVien": "2001-05-05",
+      "ngayRaVien": "2009-02-03",
+      "lyDoNhapVien": "Dau Da Day",
+      "phuongPhapDieuTri": "Tiem Thuoc",
+      "bacSi": "Trung"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -16,6 +16,9 @@ import {NgxPaginationModule} from 'ngx-pagination';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {OrderModule} from 'ngx-order-pipe';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import {MatIconModule} from '@angular/material/icon';
         NgxPaginationModule,
         MatDialogModule,
         MatButtonModule,
-        MatIconModule
+        MatIconModule,
+      BrowserAnimationsModule,
+      OrderModule,
+      MatDatepickerModule
     ],
   providers: [],
   bootstrap: [AppComponent]

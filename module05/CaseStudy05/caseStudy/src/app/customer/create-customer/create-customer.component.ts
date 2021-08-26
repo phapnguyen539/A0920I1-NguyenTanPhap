@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CustomerService} from '../../customer.service';
 import {Router} from '@angular/router';
-import {FormControl, FormGroup} from '@angular/forms';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {CustomerType} from '../../model/customerType';
 import {TypeCustomerService} from '../../type-customer.service';
 
@@ -12,7 +12,7 @@ import {TypeCustomerService} from '../../type-customer.service';
 })
 export class CreateCustomerComponent implements OnInit {
   createCustomer: FormGroup;
-  typeCustomer: CustomerType[] = [];
+  typeCustomers: CustomerType[] = [];
 
   constructor(private customerService: CustomerService,
               private router: Router,
@@ -21,25 +21,25 @@ export class CreateCustomerComponent implements OnInit {
 
   ngOnInit(): void {
     this.createCustomer = new FormGroup({
-      id: new FormControl(''),
-      name: new FormControl(''),
-      birthday: new FormControl(''),
-      gender: new FormControl(''),
-      card: new FormControl(''),
-      phone: new FormControl(''),
-      email: new FormControl(''),
-      address: new FormControl(''),
-      typeCustomer: new FormControl('')
+      id: new FormControl('', [Validators.required]),
+      name: new FormControl('', [Validators.required]),
+      birthday: new FormControl('', [Validators.required]),
+      gender: new FormControl('', [Validators.required]),
+      card: new FormControl('', [Validators.required]),
+      phone: new FormControl('', [Validators.required]),
+      email: new FormControl('', [Validators.required]),
+      address: new FormControl('', [Validators.required]),
+      typeCustomer: new FormControl('', [Validators.required])
     });
     this.typeCustomerService.getAllCustomerType().subscribe((data) => {
-        this.typeCustomer = data;
+        this.typeCustomers = data;
       }
     );
   }
   submitCustomer(){
     this.customerService.addCustomer(this.createCustomer.value).subscribe(
       (data) =>
-        this.router.navigate(['/']));
+        this.router.navigate(['/list-customer']));
     alert('Create success');
   }
 

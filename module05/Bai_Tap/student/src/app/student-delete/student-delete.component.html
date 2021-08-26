@@ -1,6 +1,7 @@
-<h3>Xoa</h3>
-<p>Ban muon xoa<span>{{studentName}}</span></p>
+<h3>Xác nhận xóa !</h3>
+<hr>
+<p class="my-3">Bạn chắc chắn muốn xóa !<span class="text-danger font-weight-bold">{{studentName}}</span></p>
 <div>
-  <button mat-dialog-close="">Huy</button>
-  <button (click)="deleteStudent()">Xoa</button>
+  <button mat-dialog-close="" class="btn btn-warning mr-3">Huy</button>
+  <button (click)="deleteStudent()" class="btn btn-danger m-3" >Xoa</button>
 </div>

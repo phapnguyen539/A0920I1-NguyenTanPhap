@@ -1,0 +1,45 @@
+label{
+    width: 144px;
+}
+.container{
+    display: grid;
+}
+#result{
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#button-addon1 {
+    color: #ffc371;
+}
+
+i {
+    color: #ffc371;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+
+div>.navbar-collapse > .mr-auto > .nav-item:hover{
+    background: bisque;
+}
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
+
